@@ -1,0 +1,55 @@
+.cols{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sidebar{
+  display: flex;
+  flex-flow: column nowrap;
+  width: 200px;
+}
+
+.data{
+  width: calc(100% - 200px - 32px);
+}
+
+.dataItem{
+  margin-bottom: 24px;
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+
+.dataItemTitle{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #4D5F7A;
+  margin-bottom: 2px;
+}
+
+.dataItemValue{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #2A3342;
+}
+
+.btnEdit{
+  align-self: flex-end;
+  & > span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFB300;
+    margin-left: 10px;
+  }
+  & path{
+    fill: #FFB300;
+  }
+}

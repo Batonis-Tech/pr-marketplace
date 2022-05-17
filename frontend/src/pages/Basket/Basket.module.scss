@@ -1,0 +1,234 @@
+@import "../../assets/variables";
+
+.container{
+  @include container;
+  padding-bottom: 32px;
+}
+
+.colInner{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.title{
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  color: #2A3342;
+  padding: 24px 0 32px 0;
+}
+
+.filters{
+  display: flex;
+  align-items: center;
+}
+
+.headerBtns{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.btn{
+  height: 46px;
+  @include flexCenterCenter
+}
+
+.btnTask{
+  margin-left: 24px;
+  height: 46px;
+  & svg{
+    margin-right: 8px;
+  }
+  & path{
+    fill: #FFB300;
+  }
+}
+
+.sidebar{
+  position: sticky;
+  top: 120px;
+}
+
+.col1{
+  width: calc(68% - 32px);
+}
+
+.col2{
+  width: 32%;
+}
+
+.price{
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+}
+
+.priceTitle{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0;
+}
+
+.priceSubTitle{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 6px 0 6px 8px;
+}
+
+.btnCard{
+  width: 100%;
+  height: 48px;
+}
+
+.multiSelectInner{
+  position: relative;
+}
+
+.dropdownInner{
+  margin-bottom: 24px;
+}
+
+.loaderInner{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 48px;
+}
+
+.dropdownLabel{
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.dropdown{
+  height: 46px;
+}
+
+.dropdownTypesProd{
+  width: 340px;
+}
+
+.dropdownWriteText{
+  width: 100%;
+}
+
+.inputInner{
+  margin-bottom: 24px;
+}
+
+.inputLabel{
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: block;
+}
+
+.input{
+  width: 100%;
+  height: 46px;
+}
+
+.documentInfo{
+  display: flex;
+  align-items: center;
+  align-self: end;
+  margin-bottom: 36px;
+  margin-left: 32px;
+}
+
+.documentInfoText{
+  margin-left: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1C232D;
+  user-select: none;
+}
+
+.documentInfoTooltip{
+  width: 260px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.row{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.textEditor{
+  margin-bottom: 16px;
+}
+
+.textEditorTitle{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333F51;
+  margin-bottom: 8px;
+}
+
+.textEditorDesc{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4D5F7A;
+  margin-bottom: 8px;
+}
+
+.optionsTitle{
+  margin-top: 24px;
+  margin-bottom: 18px;
+}
+
+.checkboxes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 32px;
+  grid-row-gap: 16px;
+}
+
+.checkboxItem{
+  width: 100%;
+}
+
+.checkboxInner{
+  display: flex;
+  width: 100%;
+}
+
+.checkbox{
+  margin-top: 4px;
+  margin-right: 12px;
+}
+
+.checkboxLabel{
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2A3342;
+}
+
+.checkboxPrice{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4D5F7A;
+  padding-left: 28px;
+}

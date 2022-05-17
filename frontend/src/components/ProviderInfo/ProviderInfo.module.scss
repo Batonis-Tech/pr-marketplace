@@ -1,0 +1,24 @@
+.pubTitle{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2A3342;
+  margin: 40px 0 24px 0;
+}
+
+.btnEdit{
+  position: absolute;
+  top: 0;
+  right: 0;
+  align-self: flex-end;
+  & > span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFB300;
+    margin-left: 10px;
+  }
+  & path{
+    fill: #FFB300;
+  }
+}

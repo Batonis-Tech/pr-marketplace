@@ -1,0 +1,21 @@
+@import "../../../assets/variables";
+
+.inner{
+  width: 100%;
+}
+
+.label{
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333F51;
+}
+
+.chips{
+  width: 100%;
+  & > ul{
+    width: 100%;
+    padding: 4px 0.75rem !important;
+  }
+}

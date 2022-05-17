@@ -1,0 +1,25 @@
+@import "../../../assets/variables";
+
+.inner{
+  width: 100%;
+}
+
+.label{
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333F51;
+}
+
+.input > input{
+  height: 46px;
+  width: 100%;
+}
+
+.inputs{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 16px;
+}

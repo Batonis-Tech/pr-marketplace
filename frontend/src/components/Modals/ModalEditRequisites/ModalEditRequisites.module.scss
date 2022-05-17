@@ -1,0 +1,16 @@
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 32px;
+  grid-row-gap: 24px;
+}
+
+.btns{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn{
+  height: 46px;
+}

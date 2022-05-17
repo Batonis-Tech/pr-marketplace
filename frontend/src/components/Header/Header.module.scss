@@ -1,0 +1,176 @@
+@import "../../assets/variables";
+.header{
+  width: 100%;
+  height: 80px;
+  background: #FFF;
+  box-shadow: 0px 1px 3px rgba(42, 51, 66, 0.06), 0px 1px 2px rgba(42, 51, 66, 0.03);
+  position: sticky;
+  top: 0;
+  z-index: 101;
+  user-select: none;
+}
+
+.container{
+  @include container;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.LogoLink{
+  @include flexCenterCenter
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.link{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #556987;
+  margin-right: 40px;
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.userInfo{
+  @include flexCenterCenter;
+  height: 100%;
+}
+
+.basket{
+  position: relative;
+  width: 32px;
+  height: 32px;
+  margin-right: 74px;
+}
+
+.basketCount{
+  position: absolute;
+  top: 0;
+  right: 0;
+  @include flexCenterCenter;
+  width: 16px;
+  height: 16px;
+  background: #4D5F7A;
+  border: 2px solid #FFFFFF;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.balance{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #4D5F7A;
+  background: #F7F8F9;
+  border-radius: 6px;
+  padding: 8px;
+  &>span{
+    margin-left: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2A3342;
+  }
+}
+
+.balanceActive{
+  pointer-events: none;
+  background: rgba(255, 179, 0, 0.13);
+}
+
+.linkActive{
+  pointer-events: none;
+}
+
+.dropdownMenu{
+  position: absolute;
+  top: 48px;
+  min-width: 230px;
+  right: 0;
+  z-index: 10;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(42, 51, 66, 0.06), 0px 1px 2px rgba(42, 51, 66, 0.03);
+  border-radius: 6px;
+}
+
+.dropdownMenuItem{
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  cursor: pointer;
+  &:hover{
+    background: rgba(255, 236, 179, 0.27);
+  }
+  &Active{
+    background: #FFECB3;
+  }
+  &Active:hover{
+    background: #FFECB3;
+  }
+  & > div{
+    margin-left: 12px;
+    white-space: nowrap;
+  }
+  &Active > div{
+    color: #FF6F00;
+  }
+  & path{
+    fill: #2A3342;
+  }
+  &Active path{
+    fill: #FF6F00;
+  }
+}
+
+.userNameContainer{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.avatar{
+  margin-left: 24px;
+  height: 36px;
+  width: 36px;
+  background: #FFB300;
+  border-radius: 36px;
+  @include flexCenterCenter;
+  & path{
+    fill: #FFF8E1;
+  }
+}
+
+.userNameInner{
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+  cursor: pointer;
+  &Active{
+    .userName{
+      color: #FF6F00
+    }
+    & path{
+      fill: #FF6F00
+    }
+  }
+}
+
+.userName{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333F51;
+  margin-right: 4px;
+}

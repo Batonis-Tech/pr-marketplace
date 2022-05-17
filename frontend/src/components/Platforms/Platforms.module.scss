@@ -1,0 +1,25 @@
+@import "../../assets/variables";
+
+.container{
+  @include container;
+  padding-bottom: 16px;
+}
+
+.title{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2A3342;
+  margin-bottom: 24px;
+}
+
+.titleProvider{
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2A3342;
+  &:hover{
+    color: #FF8F00
+  }
+}

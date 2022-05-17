@@ -1,0 +1,19 @@
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+.inputInner{
+  display: flex;
+  flex-direction: column;
+}
+
+.input{
+  height: 46px;
+}
+
+.btn{
+  height: 46px;
+  margin-top: 24px;
+  align-self: flex-end;
+}

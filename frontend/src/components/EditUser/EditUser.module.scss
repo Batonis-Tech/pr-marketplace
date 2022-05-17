@@ -1,0 +1,37 @@
+.content{
+  min-height: calc(100vh - 80px - 38px - 48px);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.inputInner{
+  display: flex;
+  flex-flow: column;
+}
+
+.inputLabel{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333F51;
+  margin-bottom: 6px;
+}
+
+.input{
+  height: 46px;
+  width: 374px;
+}
+
+.bottomBar{
+  width: 100%;
+  background: #F7F8F9;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  margin-top: 24px;
+}
+
+.bottomBarBtn{
+  height: 46px;
+}

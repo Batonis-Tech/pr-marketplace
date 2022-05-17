@@ -1,0 +1,1426 @@
+---
+openapi: '3.0.2'
+info:
+  version: 1.0.0
+  title: "Pr marketplace docs"
+
+# host: "petstore.swagger.io"
+# basePath: "/v2"
+tags:
+- name: products
+  description: "Everything about providers's services and orders"
+- name: billing
+#   externalDocs:
+#     description: "Find out more"
+#     url: "http://swagger.io"
+# - name: "store"
+#   description: "Access to Petstore orders"
+# - name: "user"
+#   description: "Operations about user"
+#   externalDocs:
+#     description: "Find out more about our store"
+#     url: "http://swagger.io"
+
+  
+
+servers:
+  - url: https://beta.trumedia.ru/backend/api/v1
+  - url: https://beta.trumedia.ru/backend/
+  - url: https://localhost/backend
+  - url: https://localhost/backend/api/v1
+
+paths:
+  /products/check_cost:
+    post:
+      security:
+        - Bearer: []
+      description: Стоимость корзины
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/check_cost'
+      responses:
+        '200':
+          description: OK
+      tags:
+        - products
+  
+  /products/cart/items/create:
+    post:
+      security:
+        - Bearer: []
+      description: Создать позицию в корзине
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                product:
+                  type: integer
+                  description: product_id
+                options:
+                  type: array
+                  items:
+                    type: integer
+                    description: option_id
+      responses:
+        '200':
+          description: OK
+      tags:
+        - cart
+  
+  /products/cart/items:
+    get:
+      security:
+        - Bearer: []
+      parameters:
+        - in: query
+          name: product__type
+          schema:
+            type: integer
+            description: type_id
+        - in: query
+          name: provider__name
+          schema:
+            type: string
+            description: search query string
+      description: Получить позиции корзины
+      responses:
+        '200':
+          description: OK
+      tags:
+        - cart
+  
+  /products/cart/items/action:
+    post:
+      security:
+        - Bearer: []
+      description: Произвести действие с отмеченными позициями корзины. Варианты - delete, info, order
+      parameters:
+        - in: query
+          name: action
+          schema:
+            type: string
+            description: action - delete, info, order
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                items:
+                  type: array
+                  items:
+                    type: integer
+                    description: cart_items_id
+      responses:
+        '200':
+          description: OK
+        '402':
+          description: Not enough money (For order)
+      tags:
+        - cart
+  
+  /products/cart/items/{item_id}:
+    patch:
+      security:
+        - Bearer: []
+      description: Отредактировать позицию корзины
+      parameters:
+        - in: path
+          name: item_id
+          required: true
+          schema:
+            type: integer
+            description: item_id
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/cart_item'
+      responses:
+        '200':
+          description: OK
+      tags:
+        - cart
+    delete:
+      security:
+        - Bearer: []
+      description: Удалить позицию корзины
+      parameters:
+        - in: path
+          name: item_id
+          required: true
+          schema:
+            type: integer
+            description: item_id
+      responses:
+        '200':
+          description: OK
+      tags:
+        - cart
+    get:
+      security:
+        - Bearer: []
+      description: Получить позицию корзины
+      parameters:
+        - in: path
+          name: item_id
+          required: true
+          schema:
+            type: integer
+            description: item_id
+      responses:
+        '200':
+          description: OK
+      tags:
+        - cart
+  
+  /products/orders/{order_id}/owner_action:
+    get:
+      security:
+        - Bearer: []
+      description: Изменить статус заказа (Для заказчика)
+      parameters:
+        - in: path
+          name: order_id
+          required: true
+          schema:
+            type: integer
+            description: 'order_id'
+        - in: query
+          name: action
+          required: true
+          schema:
+            type: string
+            description: "Варианты: pay | cancel | review | close"
+      responses:
+        '200':
+          description: OK
+      tags:
+        - products
+
+  /products/orders/{order_id}/executor_action:
+    get:
+      security:
+        - Bearer: []
+      description: Изменить статус заказа (Для исполнителя)
+      parameters:
+        - in: path
+          name: order_id
+          required: true
+          schema:
+            type: integer
+            description: 'order_id'
+        - in: query
+          name: action
+          required: true
+          schema:
+            type: string
+            description: "Варианты: start | reject"
+      responses:
+        '200':
+          description: OK
+      tags:
+        - products
+
+  /products/orders/:
+    get:
+      security:
+        - Bearer: []
+      description: Получить заказы (Можно просмотреть только свои)
+      parameters:
+        - in: query
+          name: provider
+          schema:
+            type: integer
+            description: provider_id
+        - in: query
+          name: user
+          schema:
+            type: integer
+            description: user_id
+        - in: query
+          name: start_date
+          schema:
+            type: string
+            description: yyyy-mm-dd
+        - in: query
+          name: end_date
+          schema:
+            type: string
+            description: yyyy-mm-dd
+        - in: query
+          name: provider__name
+          schema:
+            type: string
+            description: yyyy-mm-dd
+        - in: query
+          name: product__type__name
+          schema:
+            type: string
+            description: yyyy-mm-dd
+        - in: query
+          name: status
+          schema:
+            type: string
+            description: <Оплачено>, <Ожидает оплаты>, <Отменен>, <Отклонен>, <Принят в работу>, <Ожидает согласования>, <Завершен>
+      responses:
+        '200':
+          description: OK
+      tags:
+        - products
+  
+  /products/orders/{order_id}/executor_update:
+    post:
+      security:
+        - Bearer: []
+      description: Изменить заказ (Для исполнителя)
+      parameters:
+        - in: path
+          name: order_id
+          required: true
+          schema:
+            type: integer
+            description: 'order_id'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                publication_url:
+                  type: string
+                  format: uri
+                  nullable: true
+                  maxLength: 200
+                quill_solution:
+                  type: string
+                  nullable: true
+      responses:
+        '200':
+          description: OK
+      tags:
+        - products
+  
+  /products/create:
+    post:
+      security:
+        - Bearer: []
+      description: Создать продукт у СМИ
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/product'
+      responses:
+        '200':
+          description: OK
+      tags:
+        - products
+  
+  /products/{product_id}:
+    patch:
+      security:
+        - Bearer: []
+      description: Изменить продукт
+      parameters:
+        - in: path
+          name: product_id
+          required: true
+          schema:
+            type: integer
+            description: 'product_id'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/product'
+      responses:
+        '200':
+          description: OK
+      tags:
+        - products
+    delete:
+      security:
+        - Bearer: []
+      description: Удалить продукт у сми
+      parameters:
+        - in: path
+          name: option_id
+          required: true
+          schema:
+            type: integer
+            description: 'option_id'
+      responses:
+        '202':
+          description: OK
+      tags:
+        - products
+  
+  /products/option/create:
+    post:
+      security:
+        - Bearer: []
+      description: Создать дополнительную услугу у продукта
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/option'
+      responses:
+        '200':
+          description: OK
+      tags:
+        - products
+  
+  /products/option/{option_id}:
+    patch:
+      security:
+        - Bearer: []
+      description: Изменить доп. услугу
+      parameters:
+        - in: path
+          name: option_id
+          required: true
+          schema:
+            type: integer
+            description: 'option_id'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/option'
+      responses:
+        '200':
+          description: OK
+      tags:
+        - products
+    delete:
+      security:
+        - Bearer: []
+      description: Удалить доп. услугу
+      parameters:
+        - in: path
+          name: option_id
+          required: true
+          schema:
+            type: integer
+            description: 'option_id'
+      responses:
+        '202':
+          description: OK
+      tags:
+        - products
+
+  /o/token/:
+    post:
+      description: Обновить токен или авторизоваться по логину/паролю
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                publication_url:
+                  type: string
+                  description: url 
+                quill_solution:
+                  type: string
+                  description: quill.js text
+                  example: "{\"delta\":\"{\\\"ops\\\":[{\\\"insert\\\":\\\"Напишите пж что-нибудь\\\\n\\\"}]}\",\"html\":\"<p>Напишите пж что-нибудь</p>\"}"
+      responses:
+        '200':
+          description: Authorized
+  
+  /captcha:
+    post:
+      description: Проверить токен капчи
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                g-recaptcha-response:
+                  type: string
+                  description: "token"
+              
+      responses:
+        '200':
+          description: Authorized
+        '406':
+          description: Not Authorized
+  
+  /billing/create_request:
+    post:
+      security:
+        - Bearer: []
+      description: Создать запрос на вывод средств
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                billing_account:
+                  type: integer
+                  description: billing_account_id
+                amount:
+                  type: integer
+                type:
+                  type: string
+                  description: "RECIEVE for increase money, WITHDRAW for decrease money"
+                file:
+                  type: string
+                  format: binary
+                payee_name:
+                  type: string
+                  description: "Имя плательщика"
+                checking_account:
+                  type: string
+                  description: "Расчетный счет"
+                bank_BIC:
+                  type: string
+                  description: 'БИК Банка'
+                bank_name:
+                  type: string
+                  description: 'Название банка'
+                correspondent_account_number:
+                  type: string
+                  description: 'Корреспондентский адрес счета'
+                tax_number:
+                  type: string
+                  description: 'ИНН'
+                
+            encoding: # The same level as schema
+              file: # Property name (see above)
+                # contentType: image/png, image/jpeg, image/svg, image/gif, image/webp
+                contentType: file/*
+      responses:
+        '200':
+          description: OK
+      tags:
+        - billing
+  
+  /billing/check_request:
+    post:
+      security:
+        - Bearer: []
+      description: Проверить комиссию на вывод
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                billing_account:
+                  type: integer
+                  description: billing_account_id
+                amount:
+                  type: integer
+      responses:
+        '200':
+          description: OK
+        '205':
+          description: 'Недостаточно средств'
+      tags:
+        - billing
+  
+  /billing/account/me:
+    get:
+      security:
+        - Bearer: []
+      description: Получить информацию о моем аккаунте
+      responses:
+        '200':
+          description: OK
+      tags:
+        - billing
+  
+  /billing/account/{account_id}/edit:
+    patch:
+      security:
+        - Bearer: []
+      description: Изменить реквизиты своего биллинг аккаунта
+      parameters:
+        - in: path
+          name: account_id
+          required: true
+          schema:
+            type: integer
+            description: 'account_id'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                payee_name:
+                  type: string
+                checking_account:
+                  type: string
+                bank_BIC:
+                  type: string
+                bank_name:
+                  type: string
+                correspondent_account_number:
+                  type: string
+                tax_number:
+                  type: string
+      responses:
+        '200':
+          description: OK
+        '403':
+          description: You are not an owner
+      tags:
+        - billing
+  
+  /billing/transactions:
+    get:
+      security:
+        - Bearer: []
+      description: Получить список транзакций
+      parameters:
+        - in: query
+          name: account
+          required: true
+          schema:
+            type: integer
+            description: 'account_id'
+        - in: query
+          name: type
+          schema:
+            type: string
+            description: 'type'
+        - in: query
+          name: finish_date
+          schema:
+            type: string
+            description: 'finish_date'
+        - in: query
+          name: start_date
+          schema:
+            type: string
+            description: 'start_date'
+      responses:
+        '200':
+          description: OK
+      tags:
+        - billing
+  
+  /providers:
+    get:
+      operationId: api_v1_providers_list
+      parameters:
+      - in: query
+        name: advertising_mark
+        schema:
+          type: boolean
+      - in: query
+        name: aggregators
+        schema:
+          type: array
+          items:
+            type: string
+        description: Multiple values may be separated by commas.
+        explode: false
+        style: form
+      - in: query
+        name: allowed_publication_themes
+        schema:
+          type: array
+          items:
+            type: string
+        description: Multiple values may be separated by commas.
+        explode: false
+        style: form
+      - in: query
+        name: announsment
+        schema:
+          type: integer
+      - in: query
+        name: city
+        schema:
+          type: array
+          items:
+            type: string
+        description: Multiple values may be separated by commas.
+        explode: false
+        style: form
+      - in: query
+        name: country
+        schema:
+          type: array
+          items:
+            type: string
+        description: Multiple values may be separated by commas.
+        explode: false
+        style: form
+      - in: query
+        name: days_to_prod
+        schema:
+          type: integer
+      - in: query
+        name: domains
+        schema:
+          type: array
+          items:
+            type: string
+        description: Multiple values may be separated by commas.
+        explode: false
+        style: form
+      - in: query
+        name: finded_link_exchange
+        schema:
+          type: boolean
+      - in: query
+        name: index_CF_max
+        schema:
+          type: integer
+      - in: query
+        name: index_CF_min
+        schema:
+          type: integer
+      - in: query
+        name: index_DR_max
+        schema:
+          type: integer
+      - in: query
+        name: index_DR_min
+        schema:
+          type: integer
+      - in: query
+        name: index_IKS_max
+        schema:
+          type: integer
+      - in: query
+        name: index_IKS_min
+        schema:
+          type: integer
+      - in: query
+        name: index_TF_max
+        schema:
+          type: integer
+      - in: query
+        name: index_TF_min
+        schema:
+          type: integer
+      - in: query
+        name: index_TR_max
+        schema:
+          type: integer
+      - in: query
+        name: index_TR_min
+        schema:
+          type: integer
+      - in: query
+        name: index_a_hrefs_max
+        schema:
+          type: integer
+      - in: query
+        name: index_a_hrefs_min
+        schema:
+          type: integer
+      - in: query
+        name: index_alexa_rank_max
+        schema:
+          type: integer
+      - in: query
+        name: index_alexa_rank_min
+        schema:
+          type: integer
+      - in: query
+        name: index_backlinks_max
+        schema:
+          type: number
+      - in: query
+        name: index_backlinks_min
+        schema:
+          type: number
+      - in: query
+        name: index_da_moz_max
+        schema:
+          type: integer
+      - in: query
+        name: index_da_moz_min
+        schema:
+          type: integer
+      - in: query
+        name: index_domain_donors_max
+        schema:
+          type: integer
+      - in: query
+        name: index_domain_donors_min
+        schema:
+          type: integer
+      - in: query
+        name: index_google_max
+        schema:
+          type: integer
+      - in: query
+        name: index_google_min
+        schema:
+          type: integer
+      - in: query
+        name: index_google_news_max
+        schema:
+          type: integer
+      - in: query
+        name: index_google_news_min
+        schema:
+          type: integer
+      - in: query
+        name: index_organic_traffic_max
+        schema:
+          type: integer
+      - in: query
+        name: index_organic_traffic_min
+        schema:
+          type: integer
+      - in: query
+        name: index_spam_checktrust_max
+        schema:
+          type: integer
+      - in: query
+        name: index_spam_checktrust_min
+        schema:
+          type: integer
+      - in: query
+        name: index_traffic_max
+        schema:
+          type: integer
+      - in: query
+        name: index_traffic_min
+        schema:
+          type: integer
+      - in: query
+        name: index_trust_checktrust_max
+        schema:
+          type: integer
+      - in: query
+        name: index_trust_checktrust_min
+        schema:
+          type: integer
+      - in: query
+        name: index_yandex_max
+        schema:
+          type: integer
+      - in: query
+        name: index_yandex_min
+        schema:
+          type: integer
+      - in: query
+        name: index_yandex_news_max
+        schema:
+          type: integer
+      - in: query
+        name: index_yandex_news_min
+        schema:
+          type: integer
+      - in: query
+        name: keywords
+        schema:
+          type: array
+          items:
+            type: string
+        description: Multiple values may be separated by commas.
+        explode: false
+        style: form
+      - in: query
+        name: languages
+        schema:
+          type: array
+          items:
+            type: string
+        description: Multiple values may be separated by commas.
+        explode: false
+        style: form
+      - in: query
+        name: links
+        schema:
+          type: integer
+      - in: query
+        name: month_old
+        schema:
+          type: number
+      - name: page
+        required: false
+        in: query
+        description: A page number within the paginated result set.
+        schema:
+          type: integer
+      - name: page_size
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - in: query
+        name: price_max
+        schema:
+          type: number
+      - in: query
+        name: price_min
+        schema:
+          type: number
+      - in: query
+        name: pub_format
+        schema:
+          type: array
+          items:
+            type: string
+        description: Multiple values may be separated by commas.
+        explode: false
+        style: form
+      - in: query
+        name: search
+        schema:
+          type: string
+      - in: query
+        name: state
+        schema:
+          type: array
+          items:
+            type: string
+        description: Multiple values may be separated by commas.
+        explode: false
+        style: form
+      - in: query
+        name: themes
+        schema:
+          type: array
+          items:
+            type: string
+        description: Multiple values may be separated by commas.
+        explode: false
+        style: form
+      - in: query
+        name: types
+        schema:
+          type: array
+          items:
+            type: string
+        description: Multiple values may be separated by commas.
+        explode: false
+        style: form
+      - in: query
+        name: writing
+        schema:
+          type: boolean
+      tags:
+      - providers
+      responses:
+        '200':
+          description: ''
+  
+  /providers/create:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/provider'
+      tags:
+      - providers
+      responses:
+        '200':
+          description: ''
+
+  /providers/{provider_id}/edit:
+    patch:
+      parameters:
+      - name: provider_id
+        required: true
+        in: path
+        description: provider_id
+        schema:
+          type: integer
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/provider'
+      tags:
+      - providers
+      responses:
+        '200':
+          description: ''
+
+  /providers/aggregators:
+    get:
+      operationId: api_v1_providers_aggregators_list
+      parameters:
+      - name: page
+        required: false
+        in: query
+        description: A page number within the paginated result set.
+        schema:
+          type: integer
+      - name: page_size
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      tags:
+      - providers
+      responses:
+        '200':
+          description: ''
+
+  /providers/announcements:
+    get:
+      operationId: api_v1_providers_announcements_list
+      parameters:
+      - name: page
+        required: false
+        in: query
+        description: A page number within the paginated result set.
+        schema:
+          type: integer
+      - name: page_size
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      tags:
+      - providers
+      responses:
+        '200':
+          description: ''
+  
+  /providers/domains:
+    get:
+      operationId: api_v1_providers_domains_list
+      parameters:
+      - name: page
+        required: false
+        in: query
+        description: A page number within the paginated result set.
+        schema:
+          type: integer
+      - name: page_size
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      tags:
+      - providers
+      responses:
+        '200':
+          description: ''
+
+  /providers/pub_themes:
+    get:
+      operationId: api_v1_providers_pub_themes_list
+      parameters:
+      - name: page
+        required: false
+        in: query
+        description: A page number within the paginated result set.
+        schema:
+          type: integer
+      - name: page_size
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      tags:
+      - providers
+      responses:
+        '200':
+          description: ''
+
+  /providers/themes:
+    get:
+      operationId: api_v1_providers_themes_list
+      parameters:
+      - name: page
+        required: false
+        in: query
+        description: A page number within the paginated result set.
+        schema:
+          type: integer
+      - name: page_size
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      tags:
+      - providers
+      responses:
+        '200':
+          description: ''
+  
+  /providers/types:
+    get:
+      operationId: api_v1_providers_types_list
+      parameters:
+      - name: page
+        required: false
+        in: query
+        description: A page number within the paginated result set.
+        schema:
+          type: integer
+      - name: page_size
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      tags:
+      - providers
+      responses:
+        '200':
+          description: ''
+  
+  /users/auth/sign_up/confirm_email/{str_token}:
+    get:
+      description: Подтвердить почту
+      parameters:
+      - name: str_token
+        required: true
+        in: path
+        schema:
+          type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - users
+  
+  /users/auth/sign_up/confirm_email/:
+    post:
+      description: Запросить письмо с подтверждением на почту
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  
+      responses:
+        '200':
+          description: 'OK, email sended'
+        '400':
+          description: 'User with this email does not exists'
+      tags:
+        - users
+  
+  /users/auth/sign_up/reset_password/{str_token}:
+    post:
+      description: Установить новый пароль
+      parameters:
+      - name: str_token
+        required: true
+        in: path
+        schema:
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                password:
+                  type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - users
+  
+  /users/auth/sign_up/reset_password/:
+    post:
+      description: Запросить письмо с ссылкой для сброса пароля
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+      responses:
+        '200':
+          description: 'OK, email sended'
+        '400':
+          description: 'User with this email does not exists'
+      tags:
+        - users
+  
+  /users/{user_id}/edit:
+    post:
+      parameters:
+      - name: user_id
+        required: true
+        in: path
+        schema:
+          type: integer
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string          
+      responses:
+        '200':
+          description: ''
+      tags:
+        - users
+  
+  /images/upload:
+    post:
+      security:
+        - Bearer: []
+      description: 'Загрузить картинку'
+      parameters:
+        - in: query
+          name: compress
+          required: false
+          description: 'True или False'
+          schema:
+            type: string
+            description: 'Сжать ли исходное изображение'
+            example: 'true'
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties: # Request parts
+                image:
+                  type: string
+                  format: binary
+            encoding: # The same level as schema
+              image: # Property name (see above)
+                contentType: image/png, image/jpeg, image/svg, image/gif, image/webp
+      responses:
+        '200':
+          description: OK
+      tags:
+        - "images"
+        
+
+
+components:
+  securitySchemes:
+      Bearer:
+        type: apiKey
+        name: Authorization
+        in: header
+  schemas:
+    refresh:
+      type: object
+      properties:
+        grant_type:
+          type: string
+          example: "refresh_token"
+          description: "refresh_token для обновления password для входа по логину/паролю"
+        client_id:
+          type: string
+          example: "zywAufNhTAhF6z3KHsIqBkdjspSDH9J2DXWFDlyR"
+        client_secret:
+          type: string
+          example: "zywAufNhTAhF6z3KHsIqBkdjspSDH9J2DXWFDlyR"
+        refresh_token:
+          type: string
+          example: "zywAufNhTAhF6z3KHsIqBkdjspSDH9J2DXWFDlyR"
+        username:
+          type: string
+          example: "example@mail.com"
+        password:
+          type: string
+          example: "kek22fr"
+    check_cost:
+      type: array
+      items:
+        type: object
+        properties:
+          product:
+            type: integer
+            description: "product_id"
+          options:
+            type: array
+            items:
+              type: object
+              properties:
+                option: 
+                  type: integer
+                  description: client_id
+                quantity:
+                  type: integer
+    orders:
+      type: array
+      items:
+        type: object
+        properties:
+          product:
+            type: integer
+            description: "product_id"
+          provider:
+            type: integer
+            description: "provider_id"
+          user:
+            type: integer
+            description: "user_id"
+          quill_task:
+            type: string
+            description: "Тз"
+            example: "{\"delta\":\"{\\\"ops\\\":[{\\\"insert\\\":\\\"Напишите пж что-нибудь\\\\n\\\"}]}\",\"html\":\"<p>Напишите пж что-нибудь</p>\"}"
+          options:
+            type: array
+            items:
+              type: object
+              properties:
+                option: 
+                  type: integer
+                  description: client_id
+                quantity:
+                  type: integer
+    cart_item:
+      type: object
+      properties:
+        options:
+          type: array
+          items:
+            type: integer
+            description: option_id
+        quill_task:
+          type: string
+          example: "{\"delta\":\"{\\\"ops\\\":[{\\\"insert\\\":\\\"Кекес3\\\\n\\\"}]}\",\"html\":\"<p>Кекесdd3</p>\"}"
+        product:
+          type: integer
+          description: product_id
+    provider:
+      type: object
+      properties:
+        name:
+          type: string
+        url:
+          type: string
+        logo:
+          type: string
+        birthday:
+          type: string
+        description:
+          type: string
+          description: quill string
+        country:
+          type: array
+          items:
+            type: integer
+        state:
+          type: array
+          items:
+            type: integer
+        city:
+          type: array
+          items:
+            type: integer
+        languages:
+          type: array
+          items:
+            type: integer
+        themes:
+          type: array
+          items:
+            type: integer
+        types:
+          type: array
+          items:
+            type: integer
+        keywords:
+          type: array
+          items:
+            type: integer
+        domains:
+          type: array
+          items:
+            type: integer
+        aggregators:
+          type: array
+          items:
+            type: integer
+        allowed_publication_themes:
+          type: array
+          items:
+            type: integer
+        index_yandex:
+          type: integer
+        index_google:
+          type: integer
+        index_yandex_news:
+          type: integer
+        index_google_news:
+          type: integer
+        index_trust_checktrust:
+          type: integer
+        index_domain_donors:
+          type: integer
+        index_spam_checktrust:
+          type: integer
+        index_IKS:
+          type: integer
+        index_organic_traffic:
+          type: integer
+        index_traffic:
+          type: integer
+        index_CF:
+          type: integer
+        index_TF:
+          type: integer
+        index_TR:
+          type: integer
+        index_DR:
+          type: integer
+        index_alexa_rank:
+          type: integer
+        index_da_moz:
+          type: integer
+        index_a_hrefs:
+          type: integer
+        index_backlinks:
+          type: integer
+        writing:
+          type: boolean
+        advertising_mark:
+          type: boolean
+        days_to_prod:
+          type: integer
+        links:
+          type: integer
+        announsment:
+          type: integer
+    product:
+      type: object
+      properties:
+        price:
+          type: string
+        type:
+          type: integer
+        provider:
+          type: integer
+    option:
+      type: object
+      properties:
+        name:
+          type: string
+        price:
+          type: string
+        product:  
+          type: integer
+    
+        
+      

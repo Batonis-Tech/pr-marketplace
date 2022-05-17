@@ -1,0 +1,2127 @@
+2022/04/29 19:23:31 [notice] 1#1: using the "epoll" event method
+2022/04/29 19:23:31 [notice] 1#1: nginx/1.21.6
+2022/04/29 19:23:31 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/29 19:23:31 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/04/29 19:23:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/29 19:23:31 [notice] 1#1: start worker processes
+2022/04/29 19:23:31 [notice] 1#1: start worker process 23
+2022/04/29 19:23:31 [notice] 1#1: start worker process 24
+2022/04/29 19:23:31 [notice] 1#1: start worker process 25
+2022/04/29 19:23:31 [notice] 1#1: start worker process 26
+2022/04/29 19:25:47 [notice] 1#1: using the "epoll" event method
+2022/04/29 19:25:47 [notice] 1#1: nginx/1.21.6
+2022/04/29 19:25:47 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/29 19:25:47 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/04/29 19:25:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/29 19:25:47 [notice] 1#1: start worker processes
+2022/04/29 19:25:47 [notice] 1#1: start worker process 24
+2022/04/29 19:25:47 [notice] 1#1: start worker process 25
+2022/04/29 19:25:47 [notice] 1#1: start worker process 26
+2022/04/29 19:25:47 [notice] 1#1: start worker process 27
+2022/04/29 19:33:43 [notice] 1#1: using the "epoll" event method
+2022/04/29 19:33:43 [notice] 1#1: nginx/1.21.6
+2022/04/29 19:33:43 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/29 19:33:43 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/04/29 19:33:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/29 19:33:43 [notice] 1#1: start worker processes
+2022/04/29 19:33:43 [notice] 1#1: start worker process 23
+2022/04/29 19:33:43 [notice] 1#1: start worker process 24
+2022/04/29 19:33:43 [notice] 1#1: start worker process 25
+2022/04/29 19:33:43 [notice] 1#1: start worker process 26
+2022/04/29 19:34:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/29 19:34:40 [notice] 23#23: gracefully shutting down
+2022/04/29 19:34:40 [notice] 25#25: gracefully shutting down
+2022/04/29 19:34:40 [notice] 24#24: gracefully shutting down
+2022/04/29 19:34:40 [notice] 26#26: gracefully shutting down
+2022/04/29 19:34:40 [notice] 23#23: exiting
+2022/04/29 19:34:40 [notice] 23#23: exit
+2022/04/29 19:34:40 [notice] 25#25: exiting
+2022/04/29 19:34:40 [notice] 24#24: exiting
+2022/04/29 19:34:40 [notice] 25#25: exit
+2022/04/29 19:34:40 [notice] 24#24: exit
+2022/04/29 19:34:40 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/04/29 19:34:40 [notice] 1#1: worker process 23 exited with code 0
+2022/04/29 19:34:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/29 19:34:40 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/04/29 19:34:40 [notice] 1#1: worker process 25 exited with code 0
+2022/04/29 19:34:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/29 19:34:40 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/04/29 19:34:40 [notice] 1#1: worker process 24 exited with code 0
+2022/04/29 19:34:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/29 19:36:10 [notice] 1#1: using the "epoll" event method
+2022/04/29 19:36:10 [notice] 1#1: nginx/1.21.6
+2022/04/29 19:36:10 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/29 19:36:10 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/04/29 19:36:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/29 19:36:10 [notice] 1#1: start worker processes
+2022/04/29 19:36:10 [notice] 1#1: start worker process 22
+2022/04/29 19:36:10 [notice] 1#1: start worker process 23
+2022/04/29 19:36:10 [notice] 1#1: start worker process 24
+2022/04/29 19:36:10 [notice] 1#1: start worker process 25
+2022/04/30 13:19:13 [notice] 1#1: using the "epoll" event method
+2022/04/30 13:19:13 [notice] 1#1: nginx/1.21.6
+2022/04/30 13:19:13 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/30 13:19:13 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/04/30 13:19:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/30 13:19:13 [notice] 1#1: start worker processes
+2022/04/30 13:19:13 [notice] 1#1: start worker process 23
+2022/04/30 13:19:13 [notice] 1#1: start worker process 24
+2022/04/30 13:19:13 [notice] 1#1: start worker process 25
+2022/04/30 13:19:13 [notice] 1#1: start worker process 26
+2022/04/30 13:21:03 [notice] 1#1: using the "epoll" event method
+2022/04/30 13:21:03 [notice] 1#1: nginx/1.21.6
+2022/04/30 13:21:03 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/30 13:21:03 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/04/30 13:21:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/30 13:21:03 [notice] 1#1: start worker processes
+2022/04/30 13:21:03 [notice] 1#1: start worker process 21
+2022/04/30 13:21:03 [notice] 1#1: start worker process 22
+2022/04/30 13:21:03 [notice] 1#1: start worker process 23
+2022/04/30 13:21:03 [notice] 1#1: start worker process 24
+2022/04/30 13:33:21 [notice] 1#1: using the "epoll" event method
+2022/04/30 13:33:21 [notice] 1#1: nginx/1.21.6
+2022/04/30 13:33:21 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/30 13:33:21 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/04/30 13:33:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/30 13:33:21 [notice] 1#1: start worker processes
+2022/04/30 13:33:21 [notice] 1#1: start worker process 23
+2022/04/30 13:33:21 [notice] 1#1: start worker process 24
+2022/04/30 13:33:21 [notice] 1#1: start worker process 25
+2022/04/30 13:33:21 [notice] 1#1: start worker process 26
+2022/04/30 13:35:16 [notice] 1#1: using the "epoll" event method
+2022/04/30 13:35:16 [notice] 1#1: nginx/1.21.6
+2022/04/30 13:35:16 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/04/30 13:35:16 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/04/30 13:35:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/30 13:35:16 [notice] 1#1: start worker processes
+2022/04/30 13:35:16 [notice] 1#1: start worker process 24
+2022/04/30 13:35:16 [notice] 1#1: start worker process 25
+2022/04/30 13:35:16 [notice] 1#1: start worker process 26
+2022/04/30 13:35:16 [notice] 1#1: start worker process 27
+2022/05/02 16:15:28 [notice] 1#1: using the "epoll" event method
+2022/05/02 16:15:28 [notice] 1#1: nginx/1.21.6
+2022/05/02 16:15:28 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/02 16:15:28 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/02 16:15:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/02 16:15:28 [notice] 1#1: start worker processes
+2022/05/02 16:15:28 [notice] 1#1: start worker process 23
+2022/05/02 16:15:28 [notice] 1#1: start worker process 24
+2022/05/02 16:15:28 [notice] 1#1: start worker process 25
+2022/05/02 16:15:28 [notice] 1#1: start worker process 26
+2022/05/02 16:20:59 [notice] 1#1: using the "epoll" event method
+2022/05/02 16:20:59 [notice] 1#1: nginx/1.21.6
+2022/05/02 16:20:59 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/02 16:20:59 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/02 16:20:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/02 16:20:59 [notice] 1#1: start worker processes
+2022/05/02 16:20:59 [notice] 1#1: start worker process 23
+2022/05/02 16:20:59 [notice] 1#1: start worker process 24
+2022/05/02 16:20:59 [notice] 1#1: start worker process 25
+2022/05/02 16:20:59 [notice] 1#1: start worker process 26
+2022/05/02 16:23:31 [notice] 1#1: using the "epoll" event method
+2022/05/02 16:23:31 [notice] 1#1: nginx/1.21.6
+2022/05/02 16:23:31 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/02 16:23:31 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/02 16:23:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/02 16:23:31 [notice] 1#1: start worker processes
+2022/05/02 16:23:31 [notice] 1#1: start worker process 22
+2022/05/02 16:23:31 [notice] 1#1: start worker process 23
+2022/05/02 16:23:31 [notice] 1#1: start worker process 24
+2022/05/02 16:23:31 [notice] 1#1: start worker process 25
+2022/05/02 16:27:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/02 16:27:46 [notice] 22#22: gracefully shutting down
+2022/05/02 16:27:46 [notice] 22#22: exiting
+2022/05/02 16:27:46 [notice] 23#23: gracefully shutting down
+2022/05/02 16:27:46 [notice] 23#23: exiting
+2022/05/02 16:27:46 [notice] 24#24: gracefully shutting down
+2022/05/02 16:27:46 [notice] 24#24: exiting
+2022/05/02 16:27:46 [notice] 25#25: gracefully shutting down
+2022/05/02 16:27:46 [notice] 22#22: exit
+2022/05/02 16:27:46 [notice] 23#23: exit
+2022/05/02 16:27:46 [notice] 24#24: exit
+2022/05/02 16:27:46 [notice] 25#25: exiting
+2022/05/02 16:27:46 [notice] 25#25: exit
+2022/05/02 16:27:46 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/02 16:27:46 [notice] 1#1: worker process 22 exited with code 0
+2022/05/02 16:27:46 [notice] 1#1: worker process 23 exited with code 0
+2022/05/02 16:27:46 [notice] 1#1: worker process 24 exited with code 0
+2022/05/02 16:27:46 [notice] 1#1: worker process 25 exited with code 0
+2022/05/02 16:27:46 [notice] 1#1: exit
+2022/05/02 16:28:08 [notice] 1#1: using the "epoll" event method
+2022/05/02 16:28:08 [notice] 1#1: nginx/1.21.6
+2022/05/02 16:28:08 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/02 16:28:08 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/02 16:28:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/02 16:28:08 [notice] 1#1: start worker processes
+2022/05/02 16:28:08 [notice] 1#1: start worker process 22
+2022/05/02 16:28:08 [notice] 1#1: start worker process 23
+2022/05/02 16:28:08 [notice] 1#1: start worker process 24
+2022/05/02 16:28:08 [notice] 1#1: start worker process 25
+2022/05/02 16:30:20 [notice] 1#1: using the "epoll" event method
+2022/05/02 16:30:20 [notice] 1#1: nginx/1.21.6
+2022/05/02 16:30:20 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/02 16:30:20 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/02 16:30:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/02 16:30:20 [notice] 1#1: start worker processes
+2022/05/02 16:30:20 [notice] 1#1: start worker process 22
+2022/05/02 16:30:20 [notice] 1#1: start worker process 23
+2022/05/02 16:30:20 [notice] 1#1: start worker process 24
+2022/05/02 16:30:20 [notice] 1#1: start worker process 25
+2022/05/02 16:33:56 [notice] 1#1: using the "epoll" event method
+2022/05/02 16:33:56 [notice] 1#1: nginx/1.21.6
+2022/05/02 16:33:56 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/02 16:33:56 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/02 16:33:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/02 16:33:56 [notice] 1#1: start worker processes
+2022/05/02 16:33:56 [notice] 1#1: start worker process 23
+2022/05/02 16:33:56 [notice] 1#1: start worker process 24
+2022/05/02 16:33:56 [notice] 1#1: start worker process 25
+2022/05/02 16:33:56 [notice] 1#1: start worker process 26
+2022/05/02 16:35:44 [notice] 1#1: using the "epoll" event method
+2022/05/02 16:35:44 [notice] 1#1: nginx/1.21.6
+2022/05/02 16:35:44 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/02 16:35:44 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/02 16:35:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/02 16:35:44 [notice] 1#1: start worker processes
+2022/05/02 16:35:44 [notice] 1#1: start worker process 22
+2022/05/02 16:35:44 [notice] 1#1: start worker process 23
+2022/05/02 16:35:44 [notice] 1#1: start worker process 24
+2022/05/02 16:35:44 [notice] 1#1: start worker process 25
+2022/05/02 16:42:42 [notice] 1#1: using the "epoll" event method
+2022/05/02 16:42:42 [notice] 1#1: nginx/1.21.6
+2022/05/02 16:42:42 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/02 16:42:42 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/02 16:42:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/02 16:42:42 [notice] 1#1: start worker processes
+2022/05/02 16:42:42 [notice] 1#1: start worker process 22
+2022/05/02 16:42:42 [notice] 1#1: start worker process 23
+2022/05/02 16:42:42 [notice] 1#1: start worker process 24
+2022/05/02 16:42:42 [notice] 1#1: start worker process 25
+2022/05/02 16:51:42 [notice] 1#1: using the "epoll" event method
+2022/05/02 16:51:42 [notice] 1#1: nginx/1.21.6
+2022/05/02 16:51:42 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/02 16:51:42 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/02 16:51:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/02 16:51:42 [notice] 1#1: start worker processes
+2022/05/02 16:51:42 [notice] 1#1: start worker process 24
+2022/05/02 16:51:42 [notice] 1#1: start worker process 25
+2022/05/02 16:51:42 [notice] 1#1: start worker process 26
+2022/05/02 16:51:42 [notice] 1#1: start worker process 27
+2022/05/02 16:53:35 [notice] 1#1: using the "epoll" event method
+2022/05/02 16:53:35 [notice] 1#1: nginx/1.21.6
+2022/05/02 16:53:35 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/02 16:53:35 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/02 16:53:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/02 16:53:35 [notice] 1#1: start worker processes
+2022/05/02 16:53:35 [notice] 1#1: start worker process 23
+2022/05/02 16:53:35 [notice] 1#1: start worker process 24
+2022/05/02 16:53:35 [notice] 1#1: start worker process 25
+2022/05/02 16:53:35 [notice] 1#1: start worker process 26
+2022/05/02 16:54:43 [notice] 1#1: using the "epoll" event method
+2022/05/02 16:54:43 [notice] 1#1: nginx/1.21.6
+2022/05/02 16:54:43 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/02 16:54:43 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/02 16:54:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/02 16:54:43 [notice] 1#1: start worker processes
+2022/05/02 16:54:43 [notice] 1#1: start worker process 24
+2022/05/02 16:54:43 [notice] 1#1: start worker process 25
+2022/05/02 16:54:43 [notice] 1#1: start worker process 26
+2022/05/02 16:54:43 [notice] 1#1: start worker process 27
+2022/05/02 16:58:29 [notice] 1#1: using the "epoll" event method
+2022/05/02 16:58:29 [notice] 1#1: nginx/1.21.6
+2022/05/02 16:58:29 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/02 16:58:29 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/02 16:58:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/02 16:58:29 [notice] 1#1: start worker processes
+2022/05/02 16:58:29 [notice] 1#1: start worker process 21
+2022/05/02 16:58:29 [notice] 1#1: start worker process 22
+2022/05/02 16:58:29 [notice] 1#1: start worker process 23
+2022/05/02 16:58:29 [notice] 1#1: start worker process 24
+2022/05/06 12:20:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/06 12:20:30 [notice] 21#21: gracefully shutting down
+2022/05/06 12:20:30 [notice] 22#22: gracefully shutting down
+2022/05/06 12:20:30 [notice] 23#23: gracefully shutting down
+2022/05/06 12:20:30 [notice] 24#24: gracefully shutting down
+2022/05/06 12:20:30 [notice] 23#23: exiting
+2022/05/06 12:20:30 [notice] 21#21: exiting
+2022/05/06 12:20:30 [notice] 22#22: exiting
+2022/05/06 12:20:30 [notice] 24#24: exiting
+2022/05/06 12:20:30 [notice] 24#24: exit
+2022/05/06 12:20:30 [notice] 21#21: exit
+2022/05/06 12:20:30 [notice] 23#23: exit
+2022/05/06 12:20:30 [notice] 22#22: exit
+2022/05/06 12:20:30 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/06 12:20:30 [notice] 1#1: worker process 24 exited with code 0
+2022/05/06 12:20:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/06 12:20:30 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/05/06 12:20:30 [notice] 1#1: worker process 21 exited with code 0
+2022/05/06 12:20:30 [notice] 1#1: worker process 23 exited with code 0
+2022/05/06 12:20:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/06 12:20:30 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/05/06 12:20:30 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/05/06 12:20:30 [notice] 1#1: worker process 22 exited with code 0
+2022/05/06 12:20:30 [notice] 1#1: exit
+2022/05/06 12:25:54 [notice] 1#1: using the "epoll" event method
+2022/05/06 12:25:54 [notice] 1#1: nginx/1.21.6
+2022/05/06 12:25:54 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/06 12:25:54 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/06 12:25:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/06 12:25:54 [notice] 1#1: start worker processes
+2022/05/06 12:25:54 [notice] 1#1: start worker process 23
+2022/05/06 12:25:54 [notice] 1#1: start worker process 24
+2022/05/06 12:25:54 [notice] 1#1: start worker process 25
+2022/05/06 12:25:54 [notice] 1#1: start worker process 26
+2022/05/07 08:34:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/07 08:34:58 [notice] 24#24: gracefully shutting down
+2022/05/07 08:34:58 [notice] 23#23: gracefully shutting down
+2022/05/07 08:34:58 [notice] 25#25: gracefully shutting down
+2022/05/07 08:34:58 [notice] 26#26: gracefully shutting down
+2022/05/07 08:34:58 [notice] 24#24: exiting
+2022/05/07 08:34:58 [notice] 23#23: exiting
+2022/05/07 08:34:58 [notice] 25#25: exiting
+2022/05/07 08:34:58 [notice] 26#26: exiting
+2022/05/07 08:34:58 [notice] 24#24: exit
+2022/05/07 08:34:58 [notice] 25#25: exit
+2022/05/07 08:34:58 [notice] 23#23: exit
+2022/05/07 08:34:58 [notice] 26#26: exit
+2022/05/07 08:34:58 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/07 08:34:58 [notice] 1#1: worker process 24 exited with code 0
+2022/05/07 08:34:58 [notice] 1#1: worker process 25 exited with code 0
+2022/05/07 08:34:58 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/07 08:34:58 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/05/07 08:34:58 [notice] 1#1: worker process 23 exited with code 0
+2022/05/07 08:34:58 [notice] 1#1: worker process 26 exited with code 0
+2022/05/07 08:34:58 [notice] 1#1: exit
+2022/05/07 08:37:41 [notice] 1#1: using the "epoll" event method
+2022/05/07 08:37:41 [notice] 1#1: nginx/1.21.6
+2022/05/07 08:37:41 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/07 08:37:41 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/07 08:37:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/07 08:37:41 [notice] 1#1: start worker processes
+2022/05/07 08:37:41 [notice] 1#1: start worker process 22
+2022/05/07 08:37:41 [notice] 1#1: start worker process 23
+2022/05/07 08:37:41 [notice] 1#1: start worker process 24
+2022/05/07 08:37:41 [notice] 1#1: start worker process 25
+2022/05/08 08:41:02 [notice] 1#1: using the "epoll" event method
+2022/05/08 08:41:02 [notice] 1#1: nginx/1.21.6
+2022/05/08 08:41:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 08:41:02 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 08:41:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 08:41:02 [notice] 1#1: start worker processes
+2022/05/08 08:41:02 [notice] 1#1: start worker process 22
+2022/05/08 08:41:02 [notice] 1#1: start worker process 23
+2022/05/08 08:41:02 [notice] 1#1: start worker process 24
+2022/05/08 08:41:02 [notice] 1#1: start worker process 25
+2022/05/08 08:46:06 [notice] 1#1: using the "epoll" event method
+2022/05/08 08:46:06 [notice] 1#1: nginx/1.21.6
+2022/05/08 08:46:06 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 08:46:06 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 08:46:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 08:46:06 [notice] 1#1: start worker processes
+2022/05/08 08:46:06 [notice] 1#1: start worker process 23
+2022/05/08 08:46:06 [notice] 1#1: start worker process 24
+2022/05/08 08:46:06 [notice] 1#1: start worker process 25
+2022/05/08 08:46:06 [notice] 1#1: start worker process 26
+2022/05/08 10:04:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/08 10:04:40 [notice] 24#24: gracefully shutting down
+2022/05/08 10:04:40 [notice] 24#24: exiting
+2022/05/08 10:04:40 [notice] 23#23: gracefully shutting down
+2022/05/08 10:04:40 [notice] 23#23: exiting
+2022/05/08 10:04:40 [notice] 25#25: gracefully shutting down
+2022/05/08 10:04:40 [notice] 25#25: exiting
+2022/05/08 10:04:40 [notice] 26#26: gracefully shutting down
+2022/05/08 10:04:40 [notice] 24#24: exit
+2022/05/08 10:04:40 [notice] 23#23: exit
+2022/05/08 10:04:40 [notice] 25#25: exit
+2022/05/08 10:04:40 [notice] 26#26: exiting
+2022/05/08 10:04:40 [notice] 26#26: exit
+2022/05/08 10:04:40 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/08 10:04:40 [notice] 1#1: worker process 25 exited with code 0
+2022/05/08 10:04:40 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/05/08 10:04:40 [notice] 1#1: worker process 23 exited with code 0
+2022/05/08 10:04:40 [notice] 1#1: worker process 24 exited with code 0
+2022/05/08 10:04:40 [notice] 1#1: worker process 26 exited with code 0
+2022/05/08 10:04:40 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/08 10:04:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/08 10:04:40 [notice] 1#1: exit
+2022/05/08 10:05:02 [notice] 1#1: using the "epoll" event method
+2022/05/08 10:05:02 [notice] 1#1: nginx/1.21.6
+2022/05/08 10:05:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 10:05:02 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 10:05:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 10:05:02 [notice] 1#1: start worker processes
+2022/05/08 10:05:02 [notice] 1#1: start worker process 24
+2022/05/08 10:05:02 [notice] 1#1: start worker process 25
+2022/05/08 10:05:02 [notice] 1#1: start worker process 26
+2022/05/08 10:05:02 [notice] 1#1: start worker process 27
+2022/05/08 10:23:04 [notice] 1#1: using the "epoll" event method
+2022/05/08 10:23:04 [notice] 1#1: nginx/1.21.6
+2022/05/08 10:23:04 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 10:23:04 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 10:23:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 10:23:04 [notice] 1#1: start worker processes
+2022/05/08 10:23:04 [notice] 1#1: start worker process 23
+2022/05/08 10:23:04 [notice] 1#1: start worker process 24
+2022/05/08 10:23:04 [notice] 1#1: start worker process 25
+2022/05/08 10:23:04 [notice] 1#1: start worker process 26
+2022/05/08 11:00:12 [notice] 1#1: using the "epoll" event method
+2022/05/08 11:00:12 [notice] 1#1: nginx/1.21.6
+2022/05/08 11:00:12 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 11:00:12 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 11:00:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 11:00:12 [notice] 1#1: start worker processes
+2022/05/08 11:00:12 [notice] 1#1: start worker process 22
+2022/05/08 11:00:12 [notice] 1#1: start worker process 23
+2022/05/08 11:00:12 [notice] 1#1: start worker process 24
+2022/05/08 11:00:12 [notice] 1#1: start worker process 25
+2022/05/08 11:03:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/08 11:03:23 [notice] 22#22: gracefully shutting down
+2022/05/08 11:03:23 [notice] 23#23: gracefully shutting down
+2022/05/08 11:03:23 [notice] 23#23: exiting
+2022/05/08 11:03:23 [notice] 24#24: gracefully shutting down
+2022/05/08 11:03:23 [notice] 25#25: gracefully shutting down
+2022/05/08 11:03:23 [notice] 25#25: exiting
+2022/05/08 11:03:23 [notice] 22#22: exiting
+2022/05/08 11:03:23 [notice] 22#22: exit
+2022/05/08 11:03:23 [notice] 23#23: exit
+2022/05/08 11:03:23 [notice] 24#24: exiting
+2022/05/08 11:03:23 [notice] 25#25: exit
+2022/05/08 11:03:23 [notice] 24#24: exit
+2022/05/08 11:03:23 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/05/08 11:03:23 [notice] 1#1: worker process 22 exited with code 0
+2022/05/08 11:03:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/08 11:03:23 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/05/08 11:03:23 [notice] 1#1: worker process 23 exited with code 0
+2022/05/08 11:03:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/08 11:03:23 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/08 11:03:23 [notice] 1#1: worker process 25 exited with code 0
+2022/05/08 11:03:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/08 11:03:23 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/08 11:03:23 [notice] 1#1: worker process 24 exited with code 0
+2022/05/08 11:03:23 [notice] 1#1: exit
+2022/05/08 11:03:44 [notice] 1#1: using the "epoll" event method
+2022/05/08 11:03:44 [notice] 1#1: nginx/1.21.6
+2022/05/08 11:03:44 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 11:03:44 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 11:03:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 11:03:44 [notice] 1#1: start worker processes
+2022/05/08 11:03:44 [notice] 1#1: start worker process 23
+2022/05/08 11:03:44 [notice] 1#1: start worker process 24
+2022/05/08 11:03:44 [notice] 1#1: start worker process 25
+2022/05/08 11:03:44 [notice] 1#1: start worker process 26
+2022/05/08 11:12:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/08 11:12:30 [notice] 26#26: gracefully shutting down
+2022/05/08 11:12:30 [notice] 26#26: exiting
+2022/05/08 11:12:30 [notice] 23#23: gracefully shutting down
+2022/05/08 11:12:30 [notice] 23#23: exiting
+2022/05/08 11:12:30 [notice] 25#25: gracefully shutting down
+2022/05/08 11:12:30 [notice] 24#24: gracefully shutting down
+2022/05/08 11:12:30 [notice] 24#24: exiting
+2022/05/08 11:12:30 [notice] 26#26: exit
+2022/05/08 11:12:30 [notice] 23#23: exit
+2022/05/08 11:12:30 [notice] 25#25: exiting
+2022/05/08 11:12:30 [notice] 24#24: exit
+2022/05/08 11:12:30 [notice] 25#25: exit
+2022/05/08 11:12:30 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/05/08 11:12:30 [notice] 1#1: worker process 23 exited with code 0
+2022/05/08 11:12:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/08 11:12:30 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/05/08 11:12:30 [notice] 1#1: worker process 26 exited with code 0
+2022/05/08 11:12:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/08 11:12:30 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/08 11:12:30 [notice] 1#1: worker process 24 exited with code 0
+2022/05/08 11:12:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/08 11:12:30 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/08 11:12:30 [notice] 1#1: worker process 25 exited with code 0
+2022/05/08 11:12:30 [notice] 1#1: exit
+2022/05/08 11:12:51 [notice] 1#1: using the "epoll" event method
+2022/05/08 11:12:51 [notice] 1#1: nginx/1.21.6
+2022/05/08 11:12:51 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 11:12:51 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 11:12:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 11:12:51 [notice] 1#1: start worker processes
+2022/05/08 11:12:51 [notice] 1#1: start worker process 24
+2022/05/08 11:12:51 [notice] 1#1: start worker process 25
+2022/05/08 11:12:51 [notice] 1#1: start worker process 26
+2022/05/08 11:12:51 [notice] 1#1: start worker process 27
+2022/05/08 11:16:17 [notice] 1#1: using the "epoll" event method
+2022/05/08 11:16:17 [notice] 1#1: nginx/1.21.6
+2022/05/08 11:16:17 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 11:16:17 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 11:16:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 11:16:17 [notice] 1#1: start worker processes
+2022/05/08 11:16:17 [notice] 1#1: start worker process 22
+2022/05/08 11:16:17 [notice] 1#1: start worker process 23
+2022/05/08 11:16:17 [notice] 1#1: start worker process 24
+2022/05/08 11:16:17 [notice] 1#1: start worker process 25
+2022/05/08 11:17:19 [notice] 1#1: using the "epoll" event method
+2022/05/08 11:17:19 [notice] 1#1: nginx/1.21.6
+2022/05/08 11:17:19 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 11:17:19 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 11:17:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 11:17:19 [notice] 1#1: start worker processes
+2022/05/08 11:17:19 [notice] 1#1: start worker process 23
+2022/05/08 11:17:19 [notice] 1#1: start worker process 24
+2022/05/08 11:17:19 [notice] 1#1: start worker process 25
+2022/05/08 11:17:19 [notice] 1#1: start worker process 26
+2022/05/08 11:21:11 [notice] 1#1: using the "epoll" event method
+2022/05/08 11:21:11 [notice] 1#1: nginx/1.21.6
+2022/05/08 11:21:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 11:21:11 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 11:21:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 11:21:11 [notice] 1#1: start worker processes
+2022/05/08 11:21:11 [notice] 1#1: start worker process 22
+2022/05/08 11:21:11 [notice] 1#1: start worker process 23
+2022/05/08 11:21:11 [notice] 1#1: start worker process 24
+2022/05/08 11:21:11 [notice] 1#1: start worker process 25
+2022/05/08 11:23:35 [notice] 1#1: using the "epoll" event method
+2022/05/08 11:23:35 [notice] 1#1: nginx/1.21.6
+2022/05/08 11:23:35 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 11:23:35 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 11:23:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 11:23:35 [notice] 1#1: start worker processes
+2022/05/08 11:23:35 [notice] 1#1: start worker process 23
+2022/05/08 11:23:35 [notice] 1#1: start worker process 24
+2022/05/08 11:23:35 [notice] 1#1: start worker process 25
+2022/05/08 11:23:35 [notice] 1#1: start worker process 26
+2022/05/08 11:23:42 [error] 24#24: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "POST /backend/api/v1/providers/create HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/api/v1/providers/create", host: "localhost"
+2022/05/08 11:24:37 [notice] 1#1: using the "epoll" event method
+2022/05/08 11:24:37 [notice] 1#1: nginx/1.21.6
+2022/05/08 11:24:37 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 11:24:37 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 11:24:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 11:24:37 [notice] 1#1: start worker processes
+2022/05/08 11:24:37 [notice] 1#1: start worker process 24
+2022/05/08 11:24:37 [notice] 1#1: start worker process 25
+2022/05/08 11:24:37 [notice] 1#1: start worker process 26
+2022/05/08 11:24:37 [notice] 1#1: start worker process 27
+2022/05/08 11:27:25 [notice] 1#1: using the "epoll" event method
+2022/05/08 11:27:25 [notice] 1#1: nginx/1.21.6
+2022/05/08 11:27:25 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 11:27:25 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 11:27:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 11:27:25 [notice] 1#1: start worker processes
+2022/05/08 11:27:25 [notice] 1#1: start worker process 24
+2022/05/08 11:27:25 [notice] 1#1: start worker process 25
+2022/05/08 11:27:25 [notice] 1#1: start worker process 26
+2022/05/08 11:27:25 [notice] 1#1: start worker process 27
+2022/05/08 11:27:40 [notice] 1#1: using the "epoll" event method
+2022/05/08 11:27:40 [notice] 1#1: nginx/1.21.6
+2022/05/08 11:27:40 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 11:27:40 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 11:27:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 11:27:40 [notice] 1#1: start worker processes
+2022/05/08 11:27:40 [notice] 1#1: start worker process 24
+2022/05/08 11:27:40 [notice] 1#1: start worker process 25
+2022/05/08 11:27:40 [notice] 1#1: start worker process 26
+2022/05/08 11:27:40 [notice] 1#1: start worker process 27
+2022/05/08 11:28:42 [notice] 1#1: using the "epoll" event method
+2022/05/08 11:28:42 [notice] 1#1: nginx/1.21.6
+2022/05/08 11:28:42 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 11:28:42 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 11:28:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 11:28:42 [notice] 1#1: start worker processes
+2022/05/08 11:28:42 [notice] 1#1: start worker process 22
+2022/05/08 11:28:42 [notice] 1#1: start worker process 23
+2022/05/08 11:28:42 [notice] 1#1: start worker process 24
+2022/05/08 11:28:42 [notice] 1#1: start worker process 25
+2022/05/08 11:33:12 [notice] 1#1: using the "epoll" event method
+2022/05/08 11:33:12 [notice] 1#1: nginx/1.21.6
+2022/05/08 11:33:12 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 11:33:12 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 11:33:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 11:33:12 [notice] 1#1: start worker processes
+2022/05/08 11:33:12 [notice] 1#1: start worker process 22
+2022/05/08 11:33:12 [notice] 1#1: start worker process 23
+2022/05/08 11:33:12 [notice] 1#1: start worker process 24
+2022/05/08 11:33:12 [notice] 1#1: start worker process 25
+2022/05/08 11:39:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/08 11:39:27 [notice] 22#22: gracefully shutting down
+2022/05/08 11:39:27 [notice] 22#22: exiting
+2022/05/08 11:39:27 [notice] 24#24: gracefully shutting down
+2022/05/08 11:39:27 [notice] 25#25: gracefully shutting down
+2022/05/08 11:39:27 [notice] 23#23: gracefully shutting down
+2022/05/08 11:39:27 [notice] 23#23: exiting
+2022/05/08 11:39:27 [notice] 22#22: exit
+2022/05/08 11:39:27 [notice] 24#24: exiting
+2022/05/08 11:39:27 [notice] 25#25: exiting
+2022/05/08 11:39:27 [notice] 23#23: exit
+2022/05/08 11:39:27 [notice] 24#24: exit
+2022/05/08 11:39:27 [notice] 25#25: exit
+2022/05/08 11:39:27 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/05/08 11:39:27 [notice] 1#1: worker process 22 exited with code 0
+2022/05/08 11:39:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/08 11:39:27 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/08 11:39:27 [notice] 1#1: worker process 24 exited with code 0
+2022/05/08 11:39:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/08 11:39:27 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/05/08 11:39:27 [notice] 1#1: worker process 23 exited with code 0
+2022/05/08 11:39:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/08 11:39:27 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/08 11:39:27 [notice] 1#1: worker process 25 exited with code 0
+2022/05/08 11:39:27 [notice] 1#1: exit
+2022/05/08 11:39:46 [notice] 1#1: using the "epoll" event method
+2022/05/08 11:39:46 [notice] 1#1: nginx/1.21.6
+2022/05/08 11:39:46 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 11:39:46 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 11:39:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 11:39:46 [notice] 1#1: start worker processes
+2022/05/08 11:39:46 [notice] 1#1: start worker process 21
+2022/05/08 11:39:46 [notice] 1#1: start worker process 22
+2022/05/08 11:39:46 [notice] 1#1: start worker process 23
+2022/05/08 11:39:46 [notice] 1#1: start worker process 24
+2022/05/08 11:41:44 [notice] 1#1: using the "epoll" event method
+2022/05/08 11:41:44 [notice] 1#1: nginx/1.21.6
+2022/05/08 11:41:44 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 11:41:44 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 11:41:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 11:41:44 [notice] 1#1: start worker processes
+2022/05/08 11:41:44 [notice] 1#1: start worker process 22
+2022/05/08 11:41:44 [notice] 1#1: start worker process 23
+2022/05/08 11:41:44 [notice] 1#1: start worker process 24
+2022/05/08 11:41:44 [notice] 1#1: start worker process 25
+2022/05/08 11:42:56 [notice] 1#1: using the "epoll" event method
+2022/05/08 11:42:56 [notice] 1#1: nginx/1.21.6
+2022/05/08 11:42:56 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 11:42:56 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 11:42:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 11:42:56 [notice] 1#1: start worker processes
+2022/05/08 11:42:56 [notice] 1#1: start worker process 23
+2022/05/08 11:42:56 [notice] 1#1: start worker process 24
+2022/05/08 11:42:56 [notice] 1#1: start worker process 25
+2022/05/08 11:42:56 [notice] 1#1: start worker process 26
+2022/05/08 11:46:00 [notice] 1#1: using the "epoll" event method
+2022/05/08 11:46:00 [notice] 1#1: nginx/1.21.6
+2022/05/08 11:46:00 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 11:46:00 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 11:46:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 11:46:00 [notice] 1#1: start worker processes
+2022/05/08 11:46:00 [notice] 1#1: start worker process 22
+2022/05/08 11:46:00 [notice] 1#1: start worker process 23
+2022/05/08 11:46:00 [notice] 1#1: start worker process 24
+2022/05/08 11:46:00 [notice] 1#1: start worker process 25
+2022/05/08 11:48:11 [notice] 1#1: using the "epoll" event method
+2022/05/08 11:48:11 [notice] 1#1: nginx/1.21.6
+2022/05/08 11:48:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 11:48:11 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 11:48:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 11:48:11 [notice] 1#1: start worker processes
+2022/05/08 11:48:11 [notice] 1#1: start worker process 22
+2022/05/08 11:48:11 [notice] 1#1: start worker process 23
+2022/05/08 11:48:11 [notice] 1#1: start worker process 24
+2022/05/08 11:48:11 [notice] 1#1: start worker process 25
+2022/05/08 11:50:08 [notice] 1#1: using the "epoll" event method
+2022/05/08 11:50:08 [notice] 1#1: nginx/1.21.6
+2022/05/08 11:50:08 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 11:50:08 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 11:50:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 11:50:08 [notice] 1#1: start worker processes
+2022/05/08 11:50:08 [notice] 1#1: start worker process 23
+2022/05/08 11:50:08 [notice] 1#1: start worker process 24
+2022/05/08 11:50:08 [notice] 1#1: start worker process 25
+2022/05/08 11:50:08 [notice] 1#1: start worker process 26
+2022/05/08 11:59:18 [notice] 1#1: using the "epoll" event method
+2022/05/08 11:59:18 [notice] 1#1: nginx/1.21.6
+2022/05/08 11:59:18 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 11:59:18 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 11:59:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 11:59:18 [notice] 1#1: start worker processes
+2022/05/08 11:59:18 [notice] 1#1: start worker process 22
+2022/05/08 11:59:18 [notice] 1#1: start worker process 23
+2022/05/08 11:59:18 [notice] 1#1: start worker process 24
+2022/05/08 11:59:18 [notice] 1#1: start worker process 25
+2022/05/08 12:04:19 [notice] 1#1: using the "epoll" event method
+2022/05/08 12:04:19 [notice] 1#1: nginx/1.21.6
+2022/05/08 12:04:19 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 12:04:19 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 12:04:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 12:04:19 [notice] 1#1: start worker processes
+2022/05/08 12:04:19 [notice] 1#1: start worker process 24
+2022/05/08 12:04:19 [notice] 1#1: start worker process 25
+2022/05/08 12:04:19 [notice] 1#1: start worker process 26
+2022/05/08 12:04:19 [notice] 1#1: start worker process 27
+2022/05/08 12:05:24 [notice] 1#1: using the "epoll" event method
+2022/05/08 12:05:24 [notice] 1#1: nginx/1.21.6
+2022/05/08 12:05:24 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 12:05:24 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 12:05:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 12:05:24 [notice] 1#1: start worker processes
+2022/05/08 12:05:24 [notice] 1#1: start worker process 22
+2022/05/08 12:05:24 [notice] 1#1: start worker process 23
+2022/05/08 12:05:24 [notice] 1#1: start worker process 24
+2022/05/08 12:05:24 [notice] 1#1: start worker process 25
+2022/05/08 12:07:19 [notice] 1#1: using the "epoll" event method
+2022/05/08 12:07:19 [notice] 1#1: nginx/1.21.6
+2022/05/08 12:07:19 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 12:07:19 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 12:07:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 12:07:19 [notice] 1#1: start worker processes
+2022/05/08 12:07:19 [notice] 1#1: start worker process 22
+2022/05/08 12:07:19 [notice] 1#1: start worker process 23
+2022/05/08 12:07:19 [notice] 1#1: start worker process 24
+2022/05/08 12:07:19 [notice] 1#1: start worker process 25
+2022/05/08 12:08:38 [notice] 1#1: using the "epoll" event method
+2022/05/08 12:08:38 [notice] 1#1: nginx/1.21.6
+2022/05/08 12:08:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 12:08:38 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 12:08:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 12:08:38 [notice] 1#1: start worker processes
+2022/05/08 12:08:38 [notice] 1#1: start worker process 22
+2022/05/08 12:08:38 [notice] 1#1: start worker process 23
+2022/05/08 12:08:38 [notice] 1#1: start worker process 24
+2022/05/08 12:08:38 [notice] 1#1: start worker process 25
+2022/05/08 12:10:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/08 12:10:05 [notice] 23#23: gracefully shutting down
+2022/05/08 12:10:05 [notice] 23#23: exiting
+2022/05/08 12:10:05 [notice] 22#22: gracefully shutting down
+2022/05/08 12:10:05 [notice] 22#22: exiting
+2022/05/08 12:10:05 [notice] 25#25: gracefully shutting down
+2022/05/08 12:10:05 [notice] 24#24: gracefully shutting down
+2022/05/08 12:10:05 [notice] 23#23: exit
+2022/05/08 12:10:05 [notice] 22#22: exit
+2022/05/08 12:10:05 [notice] 25#25: exiting
+2022/05/08 12:10:05 [notice] 24#24: exiting
+2022/05/08 12:10:05 [notice] 25#25: exit
+2022/05/08 12:10:05 [notice] 24#24: exit
+2022/05/08 12:10:05 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/05/08 12:10:05 [notice] 1#1: worker process 23 exited with code 0
+2022/05/08 12:10:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/08 12:10:05 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/08 12:10:05 [notice] 1#1: worker process 22 exited with code 0
+2022/05/08 12:10:05 [notice] 1#1: worker process 24 exited with code 0
+2022/05/08 12:10:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/08 12:10:05 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/05/08 12:10:05 [notice] 1#1: worker process 25 exited with code 0
+2022/05/08 12:10:05 [notice] 1#1: exit
+2022/05/08 12:10:27 [notice] 1#1: using the "epoll" event method
+2022/05/08 12:10:27 [notice] 1#1: nginx/1.21.6
+2022/05/08 12:10:27 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 12:10:27 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 12:10:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 12:10:27 [notice] 1#1: start worker processes
+2022/05/08 12:10:27 [notice] 1#1: start worker process 22
+2022/05/08 12:10:27 [notice] 1#1: start worker process 23
+2022/05/08 12:10:27 [notice] 1#1: start worker process 24
+2022/05/08 12:10:27 [notice] 1#1: start worker process 25
+2022/05/08 12:11:57 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/08 12:11:57 [notice] 24#24: gracefully shutting down
+2022/05/08 12:11:57 [notice] 24#24: exiting
+2022/05/08 12:11:57 [notice] 25#25: gracefully shutting down
+2022/05/08 12:11:57 [notice] 25#25: exiting
+2022/05/08 12:11:57 [notice] 22#22: gracefully shutting down
+2022/05/08 12:11:57 [notice] 23#23: gracefully shutting down
+2022/05/08 12:11:57 [notice] 24#24: exit
+2022/05/08 12:11:57 [notice] 25#25: exit
+2022/05/08 12:11:57 [notice] 22#22: exiting
+2022/05/08 12:11:57 [notice] 23#23: exiting
+2022/05/08 12:11:57 [notice] 22#22: exit
+2022/05/08 12:11:57 [notice] 23#23: exit
+2022/05/08 12:11:57 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/08 12:11:57 [notice] 1#1: worker process 24 exited with code 0
+2022/05/08 12:11:57 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/08 12:11:57 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/08 12:11:57 [notice] 1#1: worker process 22 exited with code 0
+2022/05/08 12:11:57 [notice] 1#1: worker process 25 exited with code 0
+2022/05/08 12:11:57 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/05/08 12:11:57 [notice] 1#1: worker process 23 exited with code 0
+2022/05/08 12:11:57 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/08 12:11:57 [notice] 1#1: exit
+2022/05/08 12:12:14 [notice] 1#1: using the "epoll" event method
+2022/05/08 12:12:14 [notice] 1#1: nginx/1.21.6
+2022/05/08 12:12:14 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 12:12:14 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 12:12:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 12:12:14 [notice] 1#1: start worker processes
+2022/05/08 12:12:14 [notice] 1#1: start worker process 23
+2022/05/08 12:12:14 [notice] 1#1: start worker process 24
+2022/05/08 12:12:14 [notice] 1#1: start worker process 25
+2022/05/08 12:12:14 [notice] 1#1: start worker process 26
+2022/05/08 12:14:38 [notice] 1#1: using the "epoll" event method
+2022/05/08 12:14:38 [notice] 1#1: nginx/1.21.6
+2022/05/08 12:14:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 12:14:38 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 12:14:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 12:14:38 [notice] 1#1: start worker processes
+2022/05/08 12:14:38 [notice] 1#1: start worker process 24
+2022/05/08 12:14:38 [notice] 1#1: start worker process 25
+2022/05/08 12:14:38 [notice] 1#1: start worker process 26
+2022/05/08 12:14:38 [notice] 1#1: start worker process 27
+2022/05/08 12:18:04 [notice] 1#1: using the "epoll" event method
+2022/05/08 12:18:04 [notice] 1#1: nginx/1.21.6
+2022/05/08 12:18:04 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 12:18:04 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 12:18:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 12:18:04 [notice] 1#1: start worker processes
+2022/05/08 12:18:04 [notice] 1#1: start worker process 23
+2022/05/08 12:18:04 [notice] 1#1: start worker process 24
+2022/05/08 12:18:04 [notice] 1#1: start worker process 25
+2022/05/08 12:18:04 [notice] 1#1: start worker process 26
+2022/05/08 12:21:02 [notice] 1#1: using the "epoll" event method
+2022/05/08 12:21:02 [notice] 1#1: nginx/1.21.6
+2022/05/08 12:21:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 12:21:02 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 12:21:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 12:21:02 [notice] 1#1: start worker processes
+2022/05/08 12:21:02 [notice] 1#1: start worker process 23
+2022/05/08 12:21:02 [notice] 1#1: start worker process 24
+2022/05/08 12:21:02 [notice] 1#1: start worker process 25
+2022/05/08 12:21:02 [notice] 1#1: start worker process 26
+2022/05/08 12:22:27 [notice] 1#1: using the "epoll" event method
+2022/05/08 12:22:27 [notice] 1#1: nginx/1.21.6
+2022/05/08 12:22:27 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 12:22:27 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 12:22:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 12:22:27 [notice] 1#1: start worker processes
+2022/05/08 12:22:27 [notice] 1#1: start worker process 22
+2022/05/08 12:22:27 [notice] 1#1: start worker process 23
+2022/05/08 12:22:27 [notice] 1#1: start worker process 24
+2022/05/08 12:22:27 [notice] 1#1: start worker process 25
+2022/05/08 12:24:38 [notice] 1#1: using the "epoll" event method
+2022/05/08 12:24:38 [notice] 1#1: nginx/1.21.6
+2022/05/08 12:24:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 12:24:38 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 12:24:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 12:24:38 [notice] 1#1: start worker processes
+2022/05/08 12:24:38 [notice] 1#1: start worker process 23
+2022/05/08 12:24:38 [notice] 1#1: start worker process 24
+2022/05/08 12:24:38 [notice] 1#1: start worker process 25
+2022/05/08 12:24:38 [notice] 1#1: start worker process 26
+2022/05/08 12:24:39 [error] 24#24: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/providers/provider/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/providers/provider/", host: "localhost", referrer: "http://localhost/backend/admin/providers/provider/"
+2022/05/08 12:26:05 [notice] 1#1: using the "epoll" event method
+2022/05/08 12:26:05 [notice] 1#1: nginx/1.21.6
+2022/05/08 12:26:05 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 12:26:05 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 12:26:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 12:26:05 [notice] 1#1: start worker processes
+2022/05/08 12:26:05 [notice] 1#1: start worker process 22
+2022/05/08 12:26:05 [notice] 1#1: start worker process 23
+2022/05/08 12:26:05 [notice] 1#1: start worker process 24
+2022/05/08 12:26:05 [notice] 1#1: start worker process 25
+2022/05/08 12:29:42 [notice] 1#1: using the "epoll" event method
+2022/05/08 12:29:42 [notice] 1#1: nginx/1.21.6
+2022/05/08 12:29:42 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 12:29:42 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 12:29:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 12:29:42 [notice] 1#1: start worker processes
+2022/05/08 12:29:42 [notice] 1#1: start worker process 26
+2022/05/08 12:29:42 [notice] 1#1: start worker process 27
+2022/05/08 12:29:42 [notice] 1#1: start worker process 28
+2022/05/08 12:29:42 [notice] 1#1: start worker process 29
+2022/05/08 12:30:06 [notice] 1#1: using the "epoll" event method
+2022/05/08 12:30:06 [notice] 1#1: nginx/1.21.6
+2022/05/08 12:30:06 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 12:30:06 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 12:30:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 12:30:06 [notice] 1#1: start worker processes
+2022/05/08 12:30:06 [notice] 1#1: start worker process 23
+2022/05/08 12:30:06 [notice] 1#1: start worker process 24
+2022/05/08 12:30:06 [notice] 1#1: start worker process 25
+2022/05/08 12:30:06 [notice] 1#1: start worker process 26
+2022/05/08 12:32:24 [notice] 1#1: using the "epoll" event method
+2022/05/08 12:32:24 [notice] 1#1: nginx/1.21.6
+2022/05/08 12:32:24 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 12:32:24 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 12:32:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 12:32:24 [notice] 1#1: start worker processes
+2022/05/08 12:32:24 [notice] 1#1: start worker process 23
+2022/05/08 12:32:24 [notice] 1#1: start worker process 24
+2022/05/08 12:32:24 [notice] 1#1: start worker process 25
+2022/05/08 12:32:24 [notice] 1#1: start worker process 26
+2022/05/08 12:35:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/08 12:35:51 [notice] 24#24: gracefully shutting down
+2022/05/08 12:35:51 [notice] 23#23: gracefully shutting down
+2022/05/08 12:35:51 [notice] 26#26: gracefully shutting down
+2022/05/08 12:35:51 [notice] 26#26: exiting
+2022/05/08 12:35:51 [notice] 25#25: gracefully shutting down
+2022/05/08 12:35:51 [notice] 25#25: exiting
+2022/05/08 12:35:51 [notice] 24#24: exiting
+2022/05/08 12:35:51 [notice] 24#24: exit
+2022/05/08 12:35:51 [notice] 23#23: exiting
+2022/05/08 12:35:51 [notice] 26#26: exit
+2022/05/08 12:35:51 [notice] 25#25: exit
+2022/05/08 12:35:51 [notice] 23#23: exit
+2022/05/08 12:35:51 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/08 12:35:51 [notice] 1#1: worker process 24 exited with code 0
+2022/05/08 12:35:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/08 12:35:51 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/05/08 12:35:51 [notice] 1#1: worker process 25 exited with code 0
+2022/05/08 12:35:51 [notice] 1#1: worker process 26 exited with code 0
+2022/05/08 12:35:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/08 12:35:51 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/08 12:35:51 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/05/08 12:35:51 [notice] 1#1: worker process 23 exited with code 0
+2022/05/08 12:35:51 [notice] 1#1: exit
+2022/05/08 12:37:44 [notice] 1#1: using the "epoll" event method
+2022/05/08 12:37:44 [notice] 1#1: nginx/1.21.6
+2022/05/08 12:37:44 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 12:37:44 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 12:37:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 12:37:44 [notice] 1#1: start worker processes
+2022/05/08 12:37:44 [notice] 1#1: start worker process 23
+2022/05/08 12:37:44 [notice] 1#1: start worker process 24
+2022/05/08 12:37:44 [notice] 1#1: start worker process 25
+2022/05/08 12:37:44 [notice] 1#1: start worker process 26
+2022/05/08 12:39:48 [notice] 1#1: using the "epoll" event method
+2022/05/08 12:39:48 [notice] 1#1: nginx/1.21.6
+2022/05/08 12:39:48 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/08 12:39:48 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/08 12:39:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/08 12:39:48 [notice] 1#1: start worker processes
+2022/05/08 12:39:48 [notice] 1#1: start worker process 24
+2022/05/08 12:39:48 [notice] 1#1: start worker process 25
+2022/05/08 12:39:48 [notice] 1#1: start worker process 26
+2022/05/08 12:39:48 [notice] 1#1: start worker process 27
+2022/05/08 19:55:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/08 19:55:42 [notice] 26#26: gracefully shutting down
+2022/05/08 19:55:42 [notice] 26#26: exiting
+2022/05/08 19:55:42 [notice] 27#27: gracefully shutting down
+2022/05/08 19:55:42 [notice] 27#27: exiting
+2022/05/08 19:55:42 [notice] 25#25: gracefully shutting down
+2022/05/08 19:55:42 [notice] 25#25: exiting
+2022/05/08 19:55:42 [notice] 24#24: gracefully shutting down
+2022/05/08 19:55:42 [notice] 24#24: exiting
+2022/05/08 19:55:42 [notice] 26#26: exit
+2022/05/08 19:55:42 [notice] 27#27: exit
+2022/05/08 19:55:42 [notice] 25#25: exit
+2022/05/08 19:55:42 [notice] 24#24: exit
+2022/05/08 19:55:42 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/05/08 19:55:42 [notice] 1#1: worker process 26 exited with code 0
+2022/05/08 19:55:42 [notice] 1#1: worker process 27 exited with code 0
+2022/05/08 19:55:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/08 19:55:42 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/08 19:55:42 [notice] 1#1: worker process 25 exited with code 0
+2022/05/08 19:55:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/08 19:55:42 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/08 19:55:42 [notice] 1#1: worker process 24 exited with code 0
+2022/05/08 19:55:42 [notice] 1#1: exit
+2022/05/09 10:55:18 [notice] 1#1: using the "epoll" event method
+2022/05/09 10:55:18 [notice] 1#1: nginx/1.21.6
+2022/05/09 10:55:18 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/09 10:55:18 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/09 10:55:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/09 10:55:18 [notice] 1#1: start worker processes
+2022/05/09 10:55:18 [notice] 1#1: start worker process 22
+2022/05/09 10:55:18 [notice] 1#1: start worker process 23
+2022/05/09 10:55:18 [notice] 1#1: start worker process 24
+2022/05/09 10:55:18 [notice] 1#1: start worker process 25
+2022/05/09 10:56:57 [notice] 1#1: using the "epoll" event method
+2022/05/09 10:56:57 [notice] 1#1: nginx/1.21.6
+2022/05/09 10:56:57 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/09 10:56:57 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/09 10:56:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/09 10:56:57 [notice] 1#1: start worker processes
+2022/05/09 10:56:57 [notice] 1#1: start worker process 22
+2022/05/09 10:56:57 [notice] 1#1: start worker process 23
+2022/05/09 10:56:57 [notice] 1#1: start worker process 24
+2022/05/09 10:56:57 [notice] 1#1: start worker process 25
+2022/05/09 10:59:16 [notice] 1#1: using the "epoll" event method
+2022/05/09 10:59:16 [notice] 1#1: nginx/1.21.6
+2022/05/09 10:59:16 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/09 10:59:16 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/09 10:59:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/09 10:59:16 [notice] 1#1: start worker processes
+2022/05/09 10:59:16 [notice] 1#1: start worker process 22
+2022/05/09 10:59:16 [notice] 1#1: start worker process 23
+2022/05/09 10:59:16 [notice] 1#1: start worker process 24
+2022/05/09 10:59:16 [notice] 1#1: start worker process 25
+2022/05/09 11:01:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/09 11:01:05 [notice] 22#22: gracefully shutting down
+2022/05/09 11:01:05 [notice] 22#22: exiting
+2022/05/09 11:01:05 [notice] 25#25: gracefully shutting down
+2022/05/09 11:01:05 [notice] 25#25: exiting
+2022/05/09 11:01:05 [notice] 24#24: gracefully shutting down
+2022/05/09 11:01:05 [notice] 24#24: exiting
+2022/05/09 11:01:05 [notice] 23#23: gracefully shutting down
+2022/05/09 11:01:05 [notice] 23#23: exiting
+2022/05/09 11:01:05 [notice] 22#22: exit
+2022/05/09 11:01:05 [notice] 25#25: exit
+2022/05/09 11:01:05 [notice] 24#24: exit
+2022/05/09 11:01:05 [notice] 23#23: exit
+2022/05/09 11:01:05 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/05/09 11:01:05 [notice] 1#1: worker process 22 exited with code 0
+2022/05/09 11:01:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/09 11:01:05 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/09 11:01:05 [notice] 1#1: worker process 25 exited with code 0
+2022/05/09 11:01:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/09 11:01:05 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/09 11:01:05 [notice] 1#1: worker process 23 exited with code 0
+2022/05/09 11:01:05 [notice] 1#1: worker process 24 exited with code 0
+2022/05/09 11:01:05 [notice] 1#1: exit
+2022/05/09 11:01:23 [notice] 1#1: using the "epoll" event method
+2022/05/09 11:01:23 [notice] 1#1: nginx/1.21.6
+2022/05/09 11:01:23 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/09 11:01:23 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/09 11:01:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/09 11:01:23 [notice] 1#1: start worker processes
+2022/05/09 11:01:23 [notice] 1#1: start worker process 22
+2022/05/09 11:01:23 [notice] 1#1: start worker process 23
+2022/05/09 11:01:23 [notice] 1#1: start worker process 24
+2022/05/09 11:01:23 [notice] 1#1: start worker process 25
+2022/05/09 11:03:12 [notice] 1#1: using the "epoll" event method
+2022/05/09 11:03:12 [notice] 1#1: nginx/1.21.6
+2022/05/09 11:03:12 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/09 11:03:12 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/09 11:03:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/09 11:03:12 [notice] 1#1: start worker processes
+2022/05/09 11:03:12 [notice] 1#1: start worker process 24
+2022/05/09 11:03:12 [notice] 1#1: start worker process 25
+2022/05/09 11:03:12 [notice] 1#1: start worker process 26
+2022/05/09 11:03:12 [notice] 1#1: start worker process 27
+2022/05/09 11:05:46 [notice] 1#1: using the "epoll" event method
+2022/05/09 11:05:46 [notice] 1#1: nginx/1.21.6
+2022/05/09 11:05:46 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/09 11:05:46 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/09 11:05:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/09 11:05:46 [notice] 1#1: start worker processes
+2022/05/09 11:05:46 [notice] 1#1: start worker process 23
+2022/05/09 11:05:46 [notice] 1#1: start worker process 24
+2022/05/09 11:05:46 [notice] 1#1: start worker process 25
+2022/05/09 11:05:46 [notice] 1#1: start worker process 26
+2022/05/09 11:06:05 [notice] 1#1: using the "epoll" event method
+2022/05/09 11:06:05 [notice] 1#1: nginx/1.21.6
+2022/05/09 11:06:05 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/09 11:06:05 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/09 11:06:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/09 11:06:05 [notice] 1#1: start worker processes
+2022/05/09 11:06:05 [notice] 1#1: start worker process 22
+2022/05/09 11:06:05 [notice] 1#1: start worker process 23
+2022/05/09 11:06:05 [notice] 1#1: start worker process 24
+2022/05/09 11:06:05 [notice] 1#1: start worker process 25
+2022/05/09 11:06:11 [error] 22#22: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/09 11:06:13 [error] 22#22: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/09 11:25:22 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/09 11:25:22 [notice] 22#22: gracefully shutting down
+2022/05/09 11:25:22 [notice] 23#23: gracefully shutting down
+2022/05/09 11:25:22 [notice] 25#25: gracefully shutting down
+2022/05/09 11:25:22 [notice] 25#25: exiting
+2022/05/09 11:25:22 [notice] 24#24: gracefully shutting down
+2022/05/09 11:25:22 [notice] 24#24: exiting
+2022/05/09 11:25:22 [notice] 22#22: exiting
+2022/05/09 11:25:22 [notice] 23#23: exiting
+2022/05/09 11:25:22 [notice] 25#25: exit
+2022/05/09 11:25:22 [notice] 24#24: exit
+2022/05/09 11:25:22 [notice] 22#22: exit
+2022/05/09 11:25:22 [notice] 23#23: exit
+2022/05/09 11:25:22 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/09 11:25:22 [notice] 1#1: worker process 24 exited with code 0
+2022/05/09 11:25:22 [notice] 1#1: worker process 25 exited with code 0
+2022/05/09 11:25:22 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/09 11:25:22 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/09 11:25:22 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/05/09 11:25:22 [notice] 1#1: worker process 23 exited with code 0
+2022/05/09 11:25:22 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/05/09 11:25:22 [notice] 1#1: worker process 22 exited with code 0
+2022/05/09 11:25:22 [notice] 1#1: exit
+2022/05/09 11:31:40 [notice] 1#1: using the "epoll" event method
+2022/05/09 11:31:40 [notice] 1#1: nginx/1.21.6
+2022/05/09 11:31:40 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/09 11:31:40 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/09 11:31:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/09 11:31:40 [notice] 1#1: start worker processes
+2022/05/09 11:31:40 [notice] 1#1: start worker process 22
+2022/05/09 11:31:40 [notice] 1#1: start worker process 23
+2022/05/09 11:31:40 [notice] 1#1: start worker process 24
+2022/05/09 11:31:40 [notice] 1#1: start worker process 25
+2022/05/09 11:33:58 [notice] 1#1: using the "epoll" event method
+2022/05/09 11:33:58 [notice] 1#1: nginx/1.21.6
+2022/05/09 11:33:58 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/09 11:33:58 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/09 11:33:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/09 11:33:58 [notice] 1#1: start worker processes
+2022/05/09 11:33:58 [notice] 1#1: start worker process 22
+2022/05/09 11:33:58 [notice] 1#1: start worker process 23
+2022/05/09 11:33:58 [notice] 1#1: start worker process 24
+2022/05/09 11:33:58 [notice] 1#1: start worker process 25
+2022/05/09 11:51:02 [notice] 1#1: using the "epoll" event method
+2022/05/09 11:51:02 [notice] 1#1: nginx/1.21.6
+2022/05/09 11:51:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/09 11:51:02 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/09 11:51:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/09 11:51:02 [notice] 1#1: start worker processes
+2022/05/09 11:51:02 [notice] 1#1: start worker process 23
+2022/05/09 11:51:02 [notice] 1#1: start worker process 24
+2022/05/09 11:51:02 [notice] 1#1: start worker process 25
+2022/05/09 11:51:02 [notice] 1#1: start worker process 26
+2022/05/09 12:20:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/09 12:20:00 [notice] 24#24: gracefully shutting down
+2022/05/09 12:20:00 [notice] 25#25: gracefully shutting down
+2022/05/09 12:20:00 [notice] 23#23: gracefully shutting down
+2022/05/09 12:20:00 [notice] 23#23: exiting
+2022/05/09 12:20:00 [notice] 26#26: gracefully shutting down
+2022/05/09 12:20:00 [notice] 24#24: exiting
+2022/05/09 12:20:00 [notice] 25#25: exiting
+2022/05/09 12:20:00 [notice] 26#26: exiting
+2022/05/09 12:20:00 [notice] 23#23: exit
+2022/05/09 12:20:00 [notice] 24#24: exit
+2022/05/09 12:20:00 [notice] 25#25: exit
+2022/05/09 12:20:00 [notice] 26#26: exit
+2022/05/09 12:20:00 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/09 12:20:00 [notice] 1#1: worker process 23 exited with code 0
+2022/05/09 12:20:00 [notice] 1#1: worker process 24 exited with code 0
+2022/05/09 12:20:00 [notice] 1#1: worker process 25 exited with code 0
+2022/05/09 12:20:00 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/09 12:20:00 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/05/09 12:20:00 [notice] 1#1: worker process 26 exited with code 0
+2022/05/09 12:20:00 [notice] 1#1: exit
+2022/05/09 12:20:22 [notice] 1#1: using the "epoll" event method
+2022/05/09 12:20:22 [notice] 1#1: nginx/1.21.6
+2022/05/09 12:20:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/09 12:20:22 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/09 12:20:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/09 12:20:22 [notice] 1#1: start worker processes
+2022/05/09 12:20:22 [notice] 1#1: start worker process 22
+2022/05/09 12:20:22 [notice] 1#1: start worker process 23
+2022/05/09 12:20:22 [notice] 1#1: start worker process 24
+2022/05/09 12:20:22 [notice] 1#1: start worker process 25
+2022/05/09 12:38:50 [notice] 1#1: using the "epoll" event method
+2022/05/09 12:38:50 [notice] 1#1: nginx/1.21.6
+2022/05/09 12:38:50 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/09 12:38:50 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/09 12:38:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/09 12:38:50 [notice] 1#1: start worker processes
+2022/05/09 12:38:50 [notice] 1#1: start worker process 24
+2022/05/09 12:38:50 [notice] 1#1: start worker process 25
+2022/05/09 12:38:50 [notice] 1#1: start worker process 26
+2022/05/09 12:38:50 [notice] 1#1: start worker process 27
+2022/05/09 12:40:31 [notice] 1#1: using the "epoll" event method
+2022/05/09 12:40:31 [notice] 1#1: nginx/1.21.6
+2022/05/09 12:40:31 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/09 12:40:31 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/09 12:40:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/09 12:40:31 [notice] 1#1: start worker processes
+2022/05/09 12:40:31 [notice] 1#1: start worker process 22
+2022/05/09 12:40:31 [notice] 1#1: start worker process 23
+2022/05/09 12:40:31 [notice] 1#1: start worker process 24
+2022/05/09 12:40:31 [notice] 1#1: start worker process 25
+2022/05/09 13:10:11 [notice] 1#1: using the "epoll" event method
+2022/05/09 13:10:11 [notice] 1#1: nginx/1.21.6
+2022/05/09 13:10:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/09 13:10:11 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/09 13:10:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/09 13:10:11 [notice] 1#1: start worker processes
+2022/05/09 13:10:11 [notice] 1#1: start worker process 24
+2022/05/09 13:10:11 [notice] 1#1: start worker process 25
+2022/05/09 13:10:11 [notice] 1#1: start worker process 26
+2022/05/09 13:10:11 [notice] 1#1: start worker process 27
+2022/05/09 13:12:08 [notice] 1#1: using the "epoll" event method
+2022/05/09 13:12:08 [notice] 1#1: nginx/1.21.6
+2022/05/09 13:12:08 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/09 13:12:08 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/09 13:12:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/09 13:12:08 [notice] 1#1: start worker processes
+2022/05/09 13:12:08 [notice] 1#1: start worker process 23
+2022/05/09 13:12:08 [notice] 1#1: start worker process 24
+2022/05/09 13:12:08 [notice] 1#1: start worker process 25
+2022/05/09 13:12:08 [notice] 1#1: start worker process 26
+2022/05/09 13:14:58 [notice] 1#1: using the "epoll" event method
+2022/05/09 13:14:58 [notice] 1#1: nginx/1.21.6
+2022/05/09 13:14:58 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/09 13:14:58 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/09 13:14:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/09 13:14:58 [notice] 1#1: start worker processes
+2022/05/09 13:14:58 [notice] 1#1: start worker process 21
+2022/05/09 13:14:58 [notice] 1#1: start worker process 22
+2022/05/09 13:14:58 [notice] 1#1: start worker process 23
+2022/05/09 13:14:58 [notice] 1#1: start worker process 24
+2022/05/09 13:15:42 [notice] 1#1: using the "epoll" event method
+2022/05/09 13:15:42 [notice] 1#1: nginx/1.21.6
+2022/05/09 13:15:42 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/09 13:15:42 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/09 13:15:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/09 13:15:42 [notice] 1#1: start worker processes
+2022/05/09 13:15:42 [notice] 1#1: start worker process 22
+2022/05/09 13:15:42 [notice] 1#1: start worker process 23
+2022/05/09 13:15:42 [notice] 1#1: start worker process 24
+2022/05/09 13:15:42 [notice] 1#1: start worker process 25
+2022/05/09 13:34:38 [notice] 1#1: using the "epoll" event method
+2022/05/09 13:34:38 [notice] 1#1: nginx/1.21.6
+2022/05/09 13:34:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/09 13:34:38 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/09 13:34:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/09 13:34:38 [notice] 1#1: start worker processes
+2022/05/09 13:34:38 [notice] 1#1: start worker process 23
+2022/05/09 13:34:38 [notice] 1#1: start worker process 24
+2022/05/09 13:34:38 [notice] 1#1: start worker process 25
+2022/05/09 13:34:38 [notice] 1#1: start worker process 26
+2022/05/09 13:41:27 [notice] 1#1: using the "epoll" event method
+2022/05/09 13:41:27 [notice] 1#1: nginx/1.21.6
+2022/05/09 13:41:27 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/09 13:41:27 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/09 13:41:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/09 13:41:27 [notice] 1#1: start worker processes
+2022/05/09 13:41:27 [notice] 1#1: start worker process 23
+2022/05/09 13:41:27 [notice] 1#1: start worker process 24
+2022/05/09 13:41:27 [notice] 1#1: start worker process 25
+2022/05/09 13:41:27 [notice] 1#1: start worker process 26
+2022/05/09 13:41:34 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "POST /backend/admin/auth/group/add/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/auth/group/add/", host: "localhost", referrer: "http://localhost/backend/admin/auth/group/add/"
+2022/05/09 13:47:19 [notice] 1#1: using the "epoll" event method
+2022/05/09 13:47:19 [notice] 1#1: nginx/1.21.6
+2022/05/09 13:47:19 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/09 13:47:19 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/09 13:47:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/09 13:47:19 [notice] 1#1: start worker processes
+2022/05/09 13:47:19 [notice] 1#1: start worker process 22
+2022/05/09 13:47:19 [notice] 1#1: start worker process 23
+2022/05/09 13:47:19 [notice] 1#1: start worker process 24
+2022/05/09 13:47:19 [notice] 1#1: start worker process 25
+2022/05/10 10:43:20 [notice] 1#1: using the "epoll" event method
+2022/05/10 10:43:20 [notice] 1#1: nginx/1.21.6
+2022/05/10 10:43:20 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 10:43:20 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 10:43:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 10:43:20 [notice] 1#1: start worker processes
+2022/05/10 10:43:20 [notice] 1#1: start worker process 22
+2022/05/10 10:43:20 [notice] 1#1: start worker process 23
+2022/05/10 10:43:20 [notice] 1#1: start worker process 24
+2022/05/10 10:43:20 [notice] 1#1: start worker process 25
+2022/05/10 10:43:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/10 10:43:36 [notice] 23#23: gracefully shutting down
+2022/05/10 10:43:36 [notice] 23#23: exiting
+2022/05/10 10:43:36 [notice] 22#22: gracefully shutting down
+2022/05/10 10:43:36 [notice] 22#22: exiting
+2022/05/10 10:43:36 [notice] 24#24: gracefully shutting down
+2022/05/10 10:43:36 [notice] 24#24: exiting
+2022/05/10 10:43:36 [notice] 25#25: gracefully shutting down
+2022/05/10 10:43:36 [notice] 23#23: exit
+2022/05/10 10:43:36 [notice] 22#22: exit
+2022/05/10 10:43:36 [notice] 24#24: exit
+2022/05/10 10:43:36 [notice] 25#25: exiting
+2022/05/10 10:43:36 [notice] 25#25: exit
+2022/05/10 10:43:36 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/05/10 10:43:36 [notice] 1#1: worker process 22 exited with code 0
+2022/05/10 10:43:36 [notice] 1#1: worker process 23 exited with code 0
+2022/05/10 10:43:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/10 10:43:36 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/10 10:43:36 [notice] 1#1: worker process 24 exited with code 0
+2022/05/10 10:43:36 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/10 10:43:36 [notice] 1#1: worker process 25 exited with code 0
+2022/05/10 10:43:36 [notice] 1#1: exit
+2022/05/10 10:44:33 [notice] 1#1: using the "epoll" event method
+2022/05/10 10:44:33 [notice] 1#1: nginx/1.21.6
+2022/05/10 10:44:33 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 10:44:33 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 10:44:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 10:44:33 [notice] 1#1: start worker processes
+2022/05/10 10:44:33 [notice] 1#1: start worker process 22
+2022/05/10 10:44:33 [notice] 1#1: start worker process 23
+2022/05/10 10:44:33 [notice] 1#1: start worker process 24
+2022/05/10 10:44:33 [notice] 1#1: start worker process 25
+2022/05/10 10:45:42 [notice] 1#1: using the "epoll" event method
+2022/05/10 10:45:42 [notice] 1#1: nginx/1.21.6
+2022/05/10 10:45:42 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 10:45:42 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 10:45:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 10:45:42 [notice] 1#1: start worker processes
+2022/05/10 10:45:42 [notice] 1#1: start worker process 22
+2022/05/10 10:45:42 [notice] 1#1: start worker process 23
+2022/05/10 10:45:42 [notice] 1#1: start worker process 24
+2022/05/10 10:45:42 [notice] 1#1: start worker process 25
+2022/05/10 10:45:47 [error] 23#23: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 10:45:48 [error] 23#23: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 10:45:49 [error] 23#23: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 10:45:50 [error] 23#23: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 10:49:24 [notice] 1#1: using the "epoll" event method
+2022/05/10 10:49:24 [notice] 1#1: nginx/1.21.6
+2022/05/10 10:49:24 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 10:49:24 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 10:49:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 10:49:24 [notice] 1#1: start worker processes
+2022/05/10 10:49:24 [notice] 1#1: start worker process 22
+2022/05/10 10:49:24 [notice] 1#1: start worker process 23
+2022/05/10 10:49:24 [notice] 1#1: start worker process 24
+2022/05/10 10:49:24 [notice] 1#1: start worker process 25
+2022/05/10 10:59:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/10 10:59:39 [notice] 22#22: gracefully shutting down
+2022/05/10 10:59:39 [notice] 23#23: gracefully shutting down
+2022/05/10 10:59:39 [notice] 23#23: exiting
+2022/05/10 10:59:39 [notice] 24#24: gracefully shutting down
+2022/05/10 10:59:39 [notice] 25#25: gracefully shutting down
+2022/05/10 10:59:39 [notice] 25#25: exiting
+2022/05/10 10:59:39 [notice] 22#22: exiting
+2022/05/10 10:59:39 [notice] 23#23: exit
+2022/05/10 10:59:39 [notice] 24#24: exiting
+2022/05/10 10:59:39 [notice] 25#25: exit
+2022/05/10 10:59:39 [notice] 22#22: exit
+2022/05/10 10:59:39 [notice] 24#24: exit
+2022/05/10 10:59:39 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/05/10 10:59:39 [notice] 1#1: worker process 23 exited with code 0
+2022/05/10 10:59:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/10 10:59:39 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/10 10:59:39 [notice] 1#1: worker process 25 exited with code 0
+2022/05/10 10:59:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/10 10:59:39 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/10 10:59:39 [notice] 1#1: worker process 22 exited with code 0
+2022/05/10 10:59:39 [notice] 1#1: worker process 24 exited with code 0
+2022/05/10 10:59:39 [notice] 1#1: exit
+2022/05/10 11:00:08 [notice] 1#1: using the "epoll" event method
+2022/05/10 11:00:08 [notice] 1#1: nginx/1.21.6
+2022/05/10 11:00:08 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 11:00:08 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 11:00:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 11:00:08 [notice] 1#1: start worker processes
+2022/05/10 11:00:08 [notice] 1#1: start worker process 23
+2022/05/10 11:00:08 [notice] 1#1: start worker process 24
+2022/05/10 11:00:08 [notice] 1#1: start worker process 25
+2022/05/10 11:00:08 [notice] 1#1: start worker process 26
+2022/05/10 11:02:12 [notice] 1#1: using the "epoll" event method
+2022/05/10 11:02:12 [notice] 1#1: nginx/1.21.6
+2022/05/10 11:02:12 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 11:02:12 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 11:02:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 11:02:12 [notice] 1#1: start worker processes
+2022/05/10 11:02:12 [notice] 1#1: start worker process 22
+2022/05/10 11:02:12 [notice] 1#1: start worker process 23
+2022/05/10 11:02:12 [notice] 1#1: start worker process 24
+2022/05/10 11:02:12 [notice] 1#1: start worker process 25
+2022/05/10 11:03:15 [notice] 1#1: using the "epoll" event method
+2022/05/10 11:03:15 [notice] 1#1: nginx/1.21.6
+2022/05/10 11:03:15 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 11:03:15 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 11:03:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 11:03:15 [notice] 1#1: start worker processes
+2022/05/10 11:03:15 [notice] 1#1: start worker process 24
+2022/05/10 11:03:15 [notice] 1#1: start worker process 25
+2022/05/10 11:03:15 [notice] 1#1: start worker process 26
+2022/05/10 11:03:15 [notice] 1#1: start worker process 27
+2022/05/10 11:06:49 [notice] 1#1: using the "epoll" event method
+2022/05/10 11:06:49 [notice] 1#1: nginx/1.21.6
+2022/05/10 11:06:49 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 11:06:49 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 11:06:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 11:06:49 [notice] 1#1: start worker processes
+2022/05/10 11:06:49 [notice] 1#1: start worker process 22
+2022/05/10 11:06:49 [notice] 1#1: start worker process 23
+2022/05/10 11:06:49 [notice] 1#1: start worker process 24
+2022/05/10 11:06:49 [notice] 1#1: start worker process 25
+2022/05/10 11:06:55 [error] 23#23: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/constance/config/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/constance/config/", host: "localhost", referrer: "http://localhost/backend/admin/constance/config/"
+2022/05/10 11:06:56 [error] 23#23: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/constance/config/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/constance/config/", host: "localhost", referrer: "http://localhost/backend/admin/constance/config/"
+2022/05/10 11:06:57 [error] 23#23: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/constance/config/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/constance/config/", host: "localhost", referrer: "http://localhost/backend/admin/constance/config/"
+2022/05/10 11:08:25 [notice] 1#1: using the "epoll" event method
+2022/05/10 11:08:25 [notice] 1#1: nginx/1.21.6
+2022/05/10 11:08:25 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 11:08:25 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 11:08:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 11:08:25 [notice] 1#1: start worker processes
+2022/05/10 11:08:25 [notice] 1#1: start worker process 22
+2022/05/10 11:08:25 [notice] 1#1: start worker process 23
+2022/05/10 11:08:25 [notice] 1#1: start worker process 24
+2022/05/10 11:08:25 [notice] 1#1: start worker process 25
+2022/05/10 11:10:41 [notice] 1#1: using the "epoll" event method
+2022/05/10 11:10:41 [notice] 1#1: nginx/1.21.6
+2022/05/10 11:10:41 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 11:10:41 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 11:10:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 11:10:41 [notice] 1#1: start worker processes
+2022/05/10 11:10:41 [notice] 1#1: start worker process 23
+2022/05/10 11:10:41 [notice] 1#1: start worker process 24
+2022/05/10 11:10:41 [notice] 1#1: start worker process 25
+2022/05/10 11:10:41 [notice] 1#1: start worker process 26
+2022/05/10 11:15:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/10 11:15:12 [notice] 23#23: gracefully shutting down
+2022/05/10 11:15:12 [notice] 24#24: gracefully shutting down
+2022/05/10 11:15:12 [notice] 26#26: gracefully shutting down
+2022/05/10 11:15:12 [notice] 25#25: gracefully shutting down
+2022/05/10 11:15:12 [notice] 23#23: exiting
+2022/05/10 11:15:12 [notice] 24#24: exiting
+2022/05/10 11:15:12 [notice] 26#26: exiting
+2022/05/10 11:15:12 [notice] 25#25: exiting
+2022/05/10 11:15:12 [notice] 25#25: exit
+2022/05/10 11:15:12 [notice] 23#23: exit
+2022/05/10 11:15:12 [notice] 24#24: exit
+2022/05/10 11:15:12 [notice] 26#26: exit
+2022/05/10 11:15:12 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/10 11:15:12 [notice] 1#1: worker process 23 exited with code 0
+2022/05/10 11:15:12 [notice] 1#1: worker process 25 exited with code 0
+2022/05/10 11:15:12 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/10 11:15:12 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/05/10 11:15:12 [notice] 1#1: worker process 24 exited with code 0
+2022/05/10 11:15:12 [notice] 1#1: worker process 26 exited with code 0
+2022/05/10 11:15:12 [notice] 1#1: exit
+2022/05/10 11:15:39 [notice] 1#1: using the "epoll" event method
+2022/05/10 11:15:39 [notice] 1#1: nginx/1.21.6
+2022/05/10 11:15:39 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 11:15:39 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 11:15:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 11:15:39 [notice] 1#1: start worker processes
+2022/05/10 11:15:39 [notice] 1#1: start worker process 24
+2022/05/10 11:15:39 [notice] 1#1: start worker process 25
+2022/05/10 11:15:39 [notice] 1#1: start worker process 26
+2022/05/10 11:15:39 [notice] 1#1: start worker process 27
+2022/05/10 11:24:15 [notice] 1#1: using the "epoll" event method
+2022/05/10 11:24:15 [notice] 1#1: nginx/1.21.6
+2022/05/10 11:24:15 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 11:24:15 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 11:24:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 11:24:15 [notice] 1#1: start worker processes
+2022/05/10 11:24:15 [notice] 1#1: start worker process 22
+2022/05/10 11:24:15 [notice] 1#1: start worker process 23
+2022/05/10 11:24:15 [notice] 1#1: start worker process 24
+2022/05/10 11:24:15 [notice] 1#1: start worker process 25
+2022/05/10 11:26:40 [notice] 1#1: using the "epoll" event method
+2022/05/10 11:26:40 [notice] 1#1: nginx/1.21.6
+2022/05/10 11:26:40 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 11:26:40 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 11:26:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 11:26:40 [notice] 1#1: start worker processes
+2022/05/10 11:26:40 [notice] 1#1: start worker process 23
+2022/05/10 11:26:40 [notice] 1#1: start worker process 24
+2022/05/10 11:26:40 [notice] 1#1: start worker process 25
+2022/05/10 11:26:40 [notice] 1#1: start worker process 26
+2022/05/10 11:34:40 [notice] 1#1: using the "epoll" event method
+2022/05/10 11:34:40 [notice] 1#1: nginx/1.21.6
+2022/05/10 11:34:40 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 11:34:40 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 11:34:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 11:34:40 [notice] 1#1: start worker processes
+2022/05/10 11:34:40 [notice] 1#1: start worker process 23
+2022/05/10 11:34:40 [notice] 1#1: start worker process 24
+2022/05/10 11:34:40 [notice] 1#1: start worker process 25
+2022/05/10 11:34:40 [notice] 1#1: start worker process 26
+2022/05/10 11:34:46 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/constance/config/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/constance/config/", host: "localhost", referrer: "http://localhost/backend/admin/"
+2022/05/10 11:34:47 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/constance/config/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/constance/config/", host: "localhost", referrer: "http://localhost/backend/admin/"
+2022/05/10 11:38:43 [notice] 1#1: using the "epoll" event method
+2022/05/10 11:38:43 [notice] 1#1: nginx/1.21.6
+2022/05/10 11:38:43 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 11:38:43 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 11:38:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 11:38:43 [notice] 1#1: start worker processes
+2022/05/10 11:38:43 [notice] 1#1: start worker process 22
+2022/05/10 11:38:43 [notice] 1#1: start worker process 23
+2022/05/10 11:38:43 [notice] 1#1: start worker process 24
+2022/05/10 11:38:43 [notice] 1#1: start worker process 25
+2022/05/10 11:38:58 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost", referrer: "http://localhost/backend/admin/billing/"
+2022/05/10 11:38:59 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost", referrer: "http://localhost/backend/admin/billing/"
+2022/05/10 11:39:00 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost", referrer: "http://localhost/backend/admin/billing/"
+2022/05/10 11:39:01 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost", referrer: "http://localhost/backend/admin/billing/"
+2022/05/10 11:39:01 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost", referrer: "http://localhost/backend/admin/billing/"
+2022/05/10 11:39:02 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost", referrer: "http://localhost/backend/admin/billing/"
+2022/05/10 11:39:02 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost", referrer: "http://localhost/backend/admin/billing/"
+2022/05/10 11:39:03 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost", referrer: "http://localhost/backend/admin/billing/"
+2022/05/10 11:39:04 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost", referrer: "http://localhost/backend/admin/billing/"
+2022/05/10 11:39:06 [error] 23#23: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost", referrer: "http://localhost/backend/admin/billing/"
+2022/05/10 11:39:09 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost", referrer: "http://localhost/backend/admin/billing/"
+2022/05/10 11:40:07 [notice] 1#1: using the "epoll" event method
+2022/05/10 11:40:07 [notice] 1#1: nginx/1.21.6
+2022/05/10 11:40:07 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 11:40:07 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 11:40:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 11:40:07 [notice] 1#1: start worker processes
+2022/05/10 11:40:07 [notice] 1#1: start worker process 22
+2022/05/10 11:40:07 [notice] 1#1: start worker process 23
+2022/05/10 11:40:07 [notice] 1#1: start worker process 24
+2022/05/10 11:40:07 [notice] 1#1: start worker process 25
+2022/05/10 12:31:55 [notice] 1#1: using the "epoll" event method
+2022/05/10 12:31:55 [notice] 1#1: nginx/1.21.6
+2022/05/10 12:31:55 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 12:31:55 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 12:31:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 12:31:55 [notice] 1#1: start worker processes
+2022/05/10 12:31:55 [notice] 1#1: start worker process 25
+2022/05/10 12:31:55 [notice] 1#1: start worker process 26
+2022/05/10 12:31:55 [notice] 1#1: start worker process 27
+2022/05/10 12:31:55 [notice] 1#1: start worker process 28
+2022/05/10 12:32:07 [error] 26#26: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost", referrer: "http://localhost/backend/admin/billing/"
+2022/05/10 12:32:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/10 12:32:12 [notice] 28#28: gracefully shutting down
+2022/05/10 12:32:12 [notice] 27#27: gracefully shutting down
+2022/05/10 12:32:12 [notice] 25#25: gracefully shutting down
+2022/05/10 12:32:12 [notice] 26#26: gracefully shutting down
+2022/05/10 12:32:12 [notice] 26#26: exiting
+2022/05/10 12:32:12 [notice] 28#28: exiting
+2022/05/10 12:32:12 [notice] 27#27: exiting
+2022/05/10 12:32:12 [notice] 26#26: exit
+2022/05/10 12:32:12 [notice] 28#28: exit
+2022/05/10 12:32:12 [notice] 27#27: exit
+2022/05/10 12:32:12 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/05/10 12:32:12 [notice] 1#1: worker process 26 exited with code 0
+2022/05/10 12:32:12 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/10 12:32:12 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/05/10 12:32:12 [notice] 1#1: worker process 27 exited with code 0
+2022/05/10 12:32:12 [notice] 1#1: worker process 28 exited with code 0
+2022/05/10 12:32:12 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/10 12:32:12 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/05/10 12:32:46 [notice] 1#1: using the "epoll" event method
+2022/05/10 12:32:46 [notice] 1#1: nginx/1.21.6
+2022/05/10 12:32:46 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 12:32:46 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 12:32:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 12:32:46 [notice] 1#1: start worker processes
+2022/05/10 12:32:46 [notice] 1#1: start worker process 23
+2022/05/10 12:32:46 [notice] 1#1: start worker process 24
+2022/05/10 12:32:46 [notice] 1#1: start worker process 25
+2022/05/10 12:32:46 [notice] 1#1: start worker process 26
+2022/05/10 12:33:12 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost", referrer: "http://localhost/backend/admin/billing/"
+2022/05/10 12:33:15 [error] 23#23: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost", referrer: "http://localhost/backend/admin/billing/"
+2022/05/10 12:34:02 [notice] 1#1: using the "epoll" event method
+2022/05/10 12:34:02 [notice] 1#1: nginx/1.21.6
+2022/05/10 12:34:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 12:34:02 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 12:34:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 12:34:02 [notice] 1#1: start worker processes
+2022/05/10 12:34:02 [notice] 1#1: start worker process 23
+2022/05/10 12:34:02 [notice] 1#1: start worker process 24
+2022/05/10 12:34:02 [notice] 1#1: start worker process 25
+2022/05/10 12:34:02 [notice] 1#1: start worker process 26
+2022/05/10 12:35:45 [notice] 1#1: using the "epoll" event method
+2022/05/10 12:35:45 [notice] 1#1: nginx/1.21.6
+2022/05/10 12:35:45 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 12:35:45 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 12:35:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 12:35:45 [notice] 1#1: start worker processes
+2022/05/10 12:35:45 [notice] 1#1: start worker process 22
+2022/05/10 12:35:45 [notice] 1#1: start worker process 23
+2022/05/10 12:35:45 [notice] 1#1: start worker process 24
+2022/05/10 12:35:45 [notice] 1#1: start worker process 25
+2022/05/10 12:35:49 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost", referrer: "http://localhost/backend/admin/billing/"
+2022/05/10 12:35:51 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost", referrer: "http://localhost/backend/admin/billing/"
+2022/05/10 12:35:51 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost", referrer: "http://localhost/backend/admin/billing/"
+2022/05/10 12:35:52 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost", referrer: "http://localhost/backend/admin/billing/"
+2022/05/10 12:35:53 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost", referrer: "http://localhost/backend/admin/billing/"
+2022/05/10 12:35:53 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost", referrer: "http://localhost/backend/admin/billing/"
+2022/05/10 12:37:06 [notice] 1#1: using the "epoll" event method
+2022/05/10 12:37:06 [notice] 1#1: nginx/1.21.6
+2022/05/10 12:37:06 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 12:37:06 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 12:37:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 12:37:06 [notice] 1#1: start worker processes
+2022/05/10 12:37:06 [notice] 1#1: start worker process 23
+2022/05/10 12:37:06 [notice] 1#1: start worker process 24
+2022/05/10 12:37:06 [notice] 1#1: start worker process 25
+2022/05/10 12:37:06 [notice] 1#1: start worker process 26
+2022/05/10 12:37:11 [error] 23#23: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/admin/accounting HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/admin/accounting", host: "localhost", referrer: "http://localhost/backend/admin/"
+2022/05/10 12:37:13 [error] 23#23: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:37:59 [notice] 1#1: using the "epoll" event method
+2022/05/10 12:37:59 [notice] 1#1: nginx/1.21.6
+2022/05/10 12:37:59 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 12:37:59 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 12:37:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 12:37:59 [notice] 1#1: start worker processes
+2022/05/10 12:37:59 [notice] 1#1: start worker process 24
+2022/05/10 12:37:59 [notice] 1#1: start worker process 25
+2022/05/10 12:37:59 [notice] 1#1: start worker process 26
+2022/05/10 12:37:59 [notice] 1#1: start worker process 27
+2022/05/10 12:38:02 [error] 25#25: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:38:03 [error] 25#25: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:38:04 [error] 25#25: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:38:04 [error] 25#25: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:38:05 [error] 25#25: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:38:05 [error] 25#25: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:38:06 [error] 25#25: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:38:07 [error] 25#25: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:38:07 [error] 25#25: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:38:08 [error] 25#25: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:39:15 [notice] 1#1: using the "epoll" event method
+2022/05/10 12:39:15 [notice] 1#1: nginx/1.21.6
+2022/05/10 12:39:15 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 12:39:15 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 12:39:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 12:39:15 [notice] 1#1: start worker processes
+2022/05/10 12:39:15 [notice] 1#1: start worker process 23
+2022/05/10 12:39:15 [notice] 1#1: start worker process 24
+2022/05/10 12:39:15 [notice] 1#1: start worker process 25
+2022/05/10 12:39:15 [notice] 1#1: start worker process 26
+2022/05/10 12:39:21 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:39:22 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:39:22 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:40:42 [notice] 1#1: using the "epoll" event method
+2022/05/10 12:40:42 [notice] 1#1: nginx/1.21.6
+2022/05/10 12:40:42 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 12:40:42 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 12:40:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 12:40:42 [notice] 1#1: start worker processes
+2022/05/10 12:40:42 [notice] 1#1: start worker process 22
+2022/05/10 12:40:42 [notice] 1#1: start worker process 23
+2022/05/10 12:40:42 [notice] 1#1: start worker process 24
+2022/05/10 12:40:42 [notice] 1#1: start worker process 25
+2022/05/10 12:40:44 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:40:46 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:40:47 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:40:48 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:40:48 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:40:49 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:40:50 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:43:28 [notice] 1#1: using the "epoll" event method
+2022/05/10 12:43:28 [notice] 1#1: nginx/1.21.6
+2022/05/10 12:43:28 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 12:43:28 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 12:43:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 12:43:28 [notice] 1#1: start worker processes
+2022/05/10 12:43:28 [notice] 1#1: start worker process 22
+2022/05/10 12:43:28 [notice] 1#1: start worker process 23
+2022/05/10 12:43:28 [notice] 1#1: start worker process 24
+2022/05/10 12:43:28 [notice] 1#1: start worker process 25
+2022/05/10 12:43:32 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:43:34 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:43:34 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:43:35 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/10 12:44:33 [notice] 1#1: using the "epoll" event method
+2022/05/10 12:44:33 [notice] 1#1: nginx/1.21.6
+2022/05/10 12:44:33 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 12:44:33 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 12:44:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 12:44:33 [notice] 1#1: start worker processes
+2022/05/10 12:44:33 [notice] 1#1: start worker process 24
+2022/05/10 12:44:33 [notice] 1#1: start worker process 25
+2022/05/10 12:44:33 [notice] 1#1: start worker process 26
+2022/05/10 12:44:33 [notice] 1#1: start worker process 27
+2022/05/10 12:47:40 [notice] 1#1: using the "epoll" event method
+2022/05/10 12:47:40 [notice] 1#1: nginx/1.21.6
+2022/05/10 12:47:40 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/10 12:47:40 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/10 12:47:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/10 12:47:40 [notice] 1#1: start worker processes
+2022/05/10 12:47:40 [notice] 1#1: start worker process 22
+2022/05/10 12:47:40 [notice] 1#1: start worker process 23
+2022/05/10 12:47:40 [notice] 1#1: start worker process 24
+2022/05/10 12:47:40 [notice] 1#1: start worker process 25
+2022/05/11 21:14:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/11 21:14:58 [notice] 22#22: gracefully shutting down
+2022/05/11 21:14:58 [notice] 23#23: gracefully shutting down
+2022/05/11 21:14:58 [notice] 24#24: gracefully shutting down
+2022/05/11 21:14:58 [notice] 25#25: gracefully shutting down
+2022/05/11 21:14:58 [notice] 22#22: exiting
+2022/05/11 21:14:58 [notice] 23#23: exiting
+2022/05/11 21:14:58 [notice] 24#24: exiting
+2022/05/11 21:14:58 [notice] 25#25: exiting
+2022/05/11 21:14:58 [notice] 22#22: exit
+2022/05/11 21:14:58 [notice] 23#23: exit
+2022/05/11 21:14:58 [notice] 25#25: exit
+2022/05/11 21:14:58 [notice] 24#24: exit
+2022/05/11 21:14:58 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/11 21:14:58 [notice] 1#1: worker process 24 exited with code 0
+2022/05/11 21:14:58 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/11 21:14:58 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/05/11 21:14:58 [notice] 1#1: worker process 23 exited with code 0
+2022/05/11 21:14:58 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/11 21:14:58 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/11 21:14:58 [notice] 1#1: worker process 22 exited with code 0
+2022/05/11 21:14:58 [notice] 1#1: worker process 25 exited with code 0
+2022/05/11 21:14:58 [notice] 1#1: exit
+2022/05/11 21:14:59 [notice] 1#1: using the "epoll" event method
+2022/05/11 21:14:59 [notice] 1#1: nginx/1.21.6
+2022/05/11 21:14:59 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/11 21:14:59 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/11 21:14:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/11 21:14:59 [notice] 1#1: start worker processes
+2022/05/11 21:14:59 [notice] 1#1: start worker process 22
+2022/05/11 21:14:59 [notice] 1#1: start worker process 23
+2022/05/11 21:14:59 [notice] 1#1: start worker process 24
+2022/05/11 21:14:59 [notice] 1#1: start worker process 25
+2022/05/11 21:16:50 [notice] 1#1: using the "epoll" event method
+2022/05/11 21:16:50 [notice] 1#1: nginx/1.21.6
+2022/05/11 21:16:50 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/11 21:16:50 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/11 21:16:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/11 21:16:50 [notice] 1#1: start worker processes
+2022/05/11 21:16:50 [notice] 1#1: start worker process 23
+2022/05/11 21:16:50 [notice] 1#1: start worker process 24
+2022/05/11 21:16:50 [notice] 1#1: start worker process 25
+2022/05/11 21:16:50 [notice] 1#1: start worker process 26
+2022/05/11 21:18:00 [notice] 1#1: using the "epoll" event method
+2022/05/11 21:18:00 [notice] 1#1: nginx/1.21.6
+2022/05/11 21:18:00 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/11 21:18:00 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/11 21:18:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/11 21:18:00 [notice] 1#1: start worker processes
+2022/05/11 21:18:00 [notice] 1#1: start worker process 23
+2022/05/11 21:18:00 [notice] 1#1: start worker process 24
+2022/05/11 21:18:00 [notice] 1#1: start worker process 25
+2022/05/11 21:18:00 [notice] 1#1: start worker process 26
+2022/05/11 21:20:47 [notice] 1#1: using the "epoll" event method
+2022/05/11 21:20:47 [notice] 1#1: nginx/1.21.6
+2022/05/11 21:20:47 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/11 21:20:47 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/11 21:20:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/11 21:20:47 [notice] 1#1: start worker processes
+2022/05/11 21:20:47 [notice] 1#1: start worker process 23
+2022/05/11 21:20:47 [notice] 1#1: start worker process 24
+2022/05/11 21:20:47 [notice] 1#1: start worker process 25
+2022/05/11 21:20:47 [notice] 1#1: start worker process 26
+2022/05/11 21:23:06 [notice] 1#1: using the "epoll" event method
+2022/05/11 21:23:06 [notice] 1#1: nginx/1.21.6
+2022/05/11 21:23:06 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/11 21:23:06 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/11 21:23:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/11 21:23:06 [notice] 1#1: start worker processes
+2022/05/11 21:23:06 [notice] 1#1: start worker process 22
+2022/05/11 21:23:06 [notice] 1#1: start worker process 23
+2022/05/11 21:23:06 [notice] 1#1: start worker process 24
+2022/05/11 21:23:06 [notice] 1#1: start worker process 25
+2022/05/11 21:26:19 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/11 21:26:19 [notice] 23#23: gracefully shutting down
+2022/05/11 21:26:19 [notice] 24#24: gracefully shutting down
+2022/05/11 21:26:19 [notice] 25#25: gracefully shutting down
+2022/05/11 21:26:19 [notice] 22#22: gracefully shutting down
+2022/05/11 21:26:19 [notice] 23#23: exiting
+2022/05/11 21:26:19 [notice] 25#25: exiting
+2022/05/11 21:26:19 [notice] 22#22: exiting
+2022/05/11 21:26:19 [notice] 23#23: exit
+2022/05/11 21:26:19 [notice] 25#25: exit
+2022/05/11 21:26:19 [notice] 22#22: exit
+2022/05/11 21:26:19 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/05/11 21:26:19 [notice] 1#1: worker process 23 exited with code 0
+2022/05/11 21:26:19 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/11 21:26:19 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/11 21:26:19 [notice] 1#1: worker process 22 exited with code 0
+2022/05/11 21:26:19 [notice] 1#1: worker process 25 exited with code 0
+2022/05/11 21:26:19 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/11 21:26:19 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/05/11 21:26:53 [notice] 1#1: using the "epoll" event method
+2022/05/11 21:26:53 [notice] 1#1: nginx/1.21.6
+2022/05/11 21:26:53 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/11 21:26:53 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/11 21:26:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/11 21:26:53 [notice] 1#1: start worker processes
+2022/05/11 21:26:53 [notice] 1#1: start worker process 23
+2022/05/11 21:26:53 [notice] 1#1: start worker process 24
+2022/05/11 21:26:53 [notice] 1#1: start worker process 25
+2022/05/11 21:26:53 [notice] 1#1: start worker process 26
+2022/05/11 21:29:05 [notice] 1#1: using the "epoll" event method
+2022/05/11 21:29:05 [notice] 1#1: nginx/1.21.6
+2022/05/11 21:29:05 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/11 21:29:05 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/11 21:29:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/11 21:29:05 [notice] 1#1: start worker processes
+2022/05/11 21:29:05 [notice] 1#1: start worker process 22
+2022/05/11 21:29:05 [notice] 1#1: start worker process 23
+2022/05/11 21:29:05 [notice] 1#1: start worker process 24
+2022/05/11 21:29:05 [notice] 1#1: start worker process 25
+2022/05/12 09:22:28 [notice] 1#1: using the "epoll" event method
+2022/05/12 09:22:28 [notice] 1#1: nginx/1.21.6
+2022/05/12 09:22:28 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 09:22:28 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 09:22:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 09:22:28 [notice] 1#1: start worker processes
+2022/05/12 09:22:28 [notice] 1#1: start worker process 23
+2022/05/12 09:22:28 [notice] 1#1: start worker process 24
+2022/05/12 09:22:28 [notice] 1#1: start worker process 25
+2022/05/12 09:22:28 [notice] 1#1: start worker process 26
+2022/05/12 09:27:50 [notice] 1#1: using the "epoll" event method
+2022/05/12 09:27:50 [notice] 1#1: nginx/1.21.6
+2022/05/12 09:27:50 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 09:27:50 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 09:27:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 09:27:50 [notice] 1#1: start worker processes
+2022/05/12 09:27:50 [notice] 1#1: start worker process 24
+2022/05/12 09:27:50 [notice] 1#1: start worker process 25
+2022/05/12 09:27:50 [notice] 1#1: start worker process 26
+2022/05/12 09:27:50 [notice] 1#1: start worker process 27
+2022/05/12 09:29:42 [notice] 1#1: using the "epoll" event method
+2022/05/12 09:29:42 [notice] 1#1: nginx/1.21.6
+2022/05/12 09:29:42 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 09:29:42 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 09:29:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 09:29:42 [notice] 1#1: start worker processes
+2022/05/12 09:29:42 [notice] 1#1: start worker process 22
+2022/05/12 09:29:42 [notice] 1#1: start worker process 23
+2022/05/12 09:29:42 [notice] 1#1: start worker process 24
+2022/05/12 09:29:42 [notice] 1#1: start worker process 25
+2022/05/12 11:06:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/12 11:06:54 [notice] 23#23: gracefully shutting down
+2022/05/12 11:06:54 [notice] 22#22: gracefully shutting down
+2022/05/12 11:06:54 [notice] 25#25: gracefully shutting down
+2022/05/12 11:06:54 [notice] 25#25: exiting
+2022/05/12 11:06:54 [notice] 24#24: gracefully shutting down
+2022/05/12 11:06:54 [notice] 23#23: exiting
+2022/05/12 11:06:54 [notice] 22#22: exiting
+2022/05/12 11:06:54 [notice] 25#25: exit
+2022/05/12 11:06:54 [notice] 24#24: exiting
+2022/05/12 11:06:54 [notice] 23#23: exit
+2022/05/12 11:06:54 [notice] 22#22: exit
+2022/05/12 11:06:54 [notice] 24#24: exit
+2022/05/12 11:06:54 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/12 11:06:54 [notice] 1#1: worker process 25 exited with code 0
+2022/05/12 11:06:54 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/12 11:06:54 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/05/12 11:06:54 [notice] 1#1: worker process 22 exited with code 0
+2022/05/12 11:06:54 [notice] 1#1: worker process 23 exited with code 0
+2022/05/12 11:06:54 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/12 11:06:54 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/12 11:06:54 [notice] 1#1: worker process 24 exited with code 0
+2022/05/12 11:06:54 [notice] 1#1: exit
+2022/05/12 11:07:15 [notice] 1#1: using the "epoll" event method
+2022/05/12 11:07:15 [notice] 1#1: nginx/1.21.6
+2022/05/12 11:07:15 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 11:07:15 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 11:07:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 11:07:15 [notice] 1#1: start worker processes
+2022/05/12 11:07:15 [notice] 1#1: start worker process 21
+2022/05/12 11:07:15 [notice] 1#1: start worker process 22
+2022/05/12 11:07:15 [notice] 1#1: start worker process 23
+2022/05/12 11:07:15 [notice] 1#1: start worker process 24
+2022/05/12 11:12:46 [notice] 1#1: using the "epoll" event method
+2022/05/12 11:12:46 [notice] 1#1: nginx/1.21.6
+2022/05/12 11:12:46 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 11:12:46 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 11:12:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 11:12:46 [notice] 1#1: start worker processes
+2022/05/12 11:12:46 [notice] 1#1: start worker process 23
+2022/05/12 11:12:46 [notice] 1#1: start worker process 24
+2022/05/12 11:12:46 [notice] 1#1: start worker process 25
+2022/05/12 11:12:46 [notice] 1#1: start worker process 26
+2022/05/12 11:14:07 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/billing/balancechangingrequest/34/delete/ HTTP/1.1", upstream: "http://172.18.0.5:8000/backend/admin/billing/balancechangingrequest/34/delete/", host: "localhost", referrer: "http://localhost/backend/admin/billing/balancechangingrequest/34/change/"
+2022/05/12 11:14:56 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/billing/balancechangingrequest/34/delete/ HTTP/1.1", upstream: "http://172.18.0.5:8000/backend/admin/billing/balancechangingrequest/34/delete/", host: "localhost", referrer: "http://localhost/backend/admin/billing/balancechangingrequest/34/change/"
+2022/05/12 11:14:58 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/billing/balancechangingrequest/34/delete/ HTTP/1.1", upstream: "http://172.18.0.5:8000/backend/admin/billing/balancechangingrequest/34/delete/", host: "localhost", referrer: "http://localhost/backend/admin/billing/balancechangingrequest/34/change/"
+2022/05/12 11:14:59 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/billing/balancechangingrequest/34/delete/ HTTP/1.1", upstream: "http://172.18.0.5:8000/backend/admin/billing/balancechangingrequest/34/delete/", host: "localhost", referrer: "http://localhost/backend/admin/billing/balancechangingrequest/34/change/"
+2022/05/12 11:15:00 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/billing/balancechangingrequest/34/delete/ HTTP/1.1", upstream: "http://172.18.0.5:8000/backend/admin/billing/balancechangingrequest/34/delete/", host: "localhost", referrer: "http://localhost/backend/admin/billing/balancechangingrequest/34/change/"
+2022/05/12 11:15:03 [error] 24#24: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.5:8000/backend/admin/", host: "localhost"
+2022/05/12 11:15:10 [error] 25#25: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.5:8000/backend/admin/", host: "localhost"
+2022/05/12 11:15:11 [error] 25#25: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.5:8000/backend/admin/", host: "localhost"
+2022/05/12 11:15:11 [error] 25#25: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.5:8000/backend/admin/", host: "localhost"
+2022/05/12 11:15:11 [error] 25#25: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.5:8000/backend/admin/", host: "localhost"
+2022/05/12 11:15:12 [error] 25#25: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.5:8000/backend/admin/", host: "localhost"
+2022/05/12 11:15:12 [error] 25#25: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.5:8000/backend/admin/", host: "localhost"
+2022/05/12 11:15:12 [error] 25#25: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.5:8000/backend/admin/", host: "localhost"
+2022/05/12 11:15:19 [error] 26#26: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.5:8000/backend/admin/", host: "localhost"
+2022/05/12 11:15:49 [error] 24#24: *23 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.5:8000/backend/admin/", host: "localhost"
+2022/05/12 11:15:49 [error] 24#24: *23 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.5:8000/backend/admin/", host: "localhost"
+2022/05/12 11:15:50 [error] 24#24: *23 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.5:8000/backend/admin/", host: "localhost"
+2022/05/12 11:16:01 [notice] 1#1: using the "epoll" event method
+2022/05/12 11:16:01 [notice] 1#1: nginx/1.21.6
+2022/05/12 11:16:01 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 11:16:01 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 11:16:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 11:16:01 [notice] 1#1: start worker processes
+2022/05/12 11:16:01 [notice] 1#1: start worker process 22
+2022/05/12 11:16:01 [notice] 1#1: start worker process 23
+2022/05/12 11:16:01 [notice] 1#1: start worker process 24
+2022/05/12 11:16:01 [notice] 1#1: start worker process 25
+2022/05/12 11:27:20 [notice] 1#1: using the "epoll" event method
+2022/05/12 11:27:20 [notice] 1#1: nginx/1.21.6
+2022/05/12 11:27:20 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 11:27:20 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 11:27:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 11:27:20 [notice] 1#1: start worker processes
+2022/05/12 11:27:20 [notice] 1#1: start worker process 22
+2022/05/12 11:27:20 [notice] 1#1: start worker process 23
+2022/05/12 11:27:20 [notice] 1#1: start worker process 24
+2022/05/12 11:27:20 [notice] 1#1: start worker process 25
+2022/05/12 11:35:26 [notice] 1#1: using the "epoll" event method
+2022/05/12 11:35:26 [notice] 1#1: nginx/1.21.6
+2022/05/12 11:35:26 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 11:35:26 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 11:35:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 11:35:26 [notice] 1#1: start worker processes
+2022/05/12 11:35:26 [notice] 1#1: start worker process 23
+2022/05/12 11:35:26 [notice] 1#1: start worker process 24
+2022/05/12 11:35:26 [notice] 1#1: start worker process 25
+2022/05/12 11:35:26 [notice] 1#1: start worker process 26
+2022/05/12 11:35:32 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "POST /backend/admin/billing/transaction/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/billing/transaction/", host: "localhost", referrer: "http://localhost/backend/admin/billing/transaction/"
+2022/05/12 11:41:16 [notice] 1#1: using the "epoll" event method
+2022/05/12 11:41:16 [notice] 1#1: nginx/1.21.6
+2022/05/12 11:41:16 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 11:41:16 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 11:41:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 11:41:16 [notice] 1#1: start worker processes
+2022/05/12 11:41:16 [notice] 1#1: start worker process 23
+2022/05/12 11:41:16 [notice] 1#1: start worker process 24
+2022/05/12 11:41:16 [notice] 1#1: start worker process 25
+2022/05/12 11:41:16 [notice] 1#1: start worker process 26
+2022/05/12 11:42:35 [notice] 1#1: using the "epoll" event method
+2022/05/12 11:42:35 [notice] 1#1: nginx/1.21.6
+2022/05/12 11:42:35 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 11:42:35 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 11:42:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 11:42:35 [notice] 1#1: start worker processes
+2022/05/12 11:42:35 [notice] 1#1: start worker process 23
+2022/05/12 11:42:35 [notice] 1#1: start worker process 24
+2022/05/12 11:42:35 [notice] 1#1: start worker process 25
+2022/05/12 11:42:35 [notice] 1#1: start worker process 26
+2022/05/12 12:36:22 [notice] 1#1: using the "epoll" event method
+2022/05/12 12:36:22 [notice] 1#1: nginx/1.21.6
+2022/05/12 12:36:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 12:36:22 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 12:36:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 12:36:22 [notice] 1#1: start worker processes
+2022/05/12 12:36:22 [notice] 1#1: start worker process 23
+2022/05/12 12:36:22 [notice] 1#1: start worker process 24
+2022/05/12 12:36:22 [notice] 1#1: start worker process 25
+2022/05/12 12:36:22 [notice] 1#1: start worker process 26
+2022/05/12 12:38:17 [notice] 1#1: using the "epoll" event method
+2022/05/12 12:38:17 [notice] 1#1: nginx/1.21.6
+2022/05/12 12:38:17 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 12:38:17 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 12:38:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 12:38:17 [notice] 1#1: start worker processes
+2022/05/12 12:38:17 [notice] 1#1: start worker process 22
+2022/05/12 12:38:17 [notice] 1#1: start worker process 23
+2022/05/12 12:38:17 [notice] 1#1: start worker process 24
+2022/05/12 12:38:17 [notice] 1#1: start worker process 25
+2022/05/12 12:38:34 [notice] 1#1: using the "epoll" event method
+2022/05/12 12:38:34 [notice] 1#1: nginx/1.21.6
+2022/05/12 12:38:34 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 12:38:34 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 12:38:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 12:38:34 [notice] 1#1: start worker processes
+2022/05/12 12:38:34 [notice] 1#1: start worker process 22
+2022/05/12 12:38:34 [notice] 1#1: start worker process 23
+2022/05/12 12:38:34 [notice] 1#1: start worker process 24
+2022/05/12 12:38:34 [notice] 1#1: start worker process 25
+2022/05/12 12:38:39 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/12 12:38:39 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/12 12:38:40 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/12 12:38:41 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/12 12:38:42 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/12 12:38:44 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/admin/ HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/admin/", host: "localhost"
+2022/05/12 12:40:37 [notice] 1#1: using the "epoll" event method
+2022/05/12 12:40:37 [notice] 1#1: nginx/1.21.6
+2022/05/12 12:40:37 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 12:40:37 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 12:40:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 12:40:37 [notice] 1#1: start worker processes
+2022/05/12 12:40:37 [notice] 1#1: start worker process 23
+2022/05/12 12:40:37 [notice] 1#1: start worker process 24
+2022/05/12 12:40:37 [notice] 1#1: start worker process 25
+2022/05/12 12:40:37 [notice] 1#1: start worker process 26
+2022/05/12 12:43:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/12 12:43:51 [notice] 23#23: gracefully shutting down
+2022/05/12 12:43:51 [notice] 26#26: gracefully shutting down
+2022/05/12 12:43:51 [notice] 25#25: gracefully shutting down
+2022/05/12 12:43:51 [notice] 25#25: exiting
+2022/05/12 12:43:51 [notice] 24#24: gracefully shutting down
+2022/05/12 12:43:51 [notice] 23#23: exiting
+2022/05/12 12:43:51 [notice] 26#26: exiting
+2022/05/12 12:43:51 [notice] 25#25: exit
+2022/05/12 12:43:51 [notice] 24#24: exiting
+2022/05/12 12:43:51 [notice] 23#23: exit
+2022/05/12 12:43:51 [notice] 26#26: exit
+2022/05/12 12:43:51 [notice] 24#24: exit
+2022/05/12 12:43:51 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/12 12:43:51 [notice] 1#1: worker process 25 exited with code 0
+2022/05/12 12:43:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/12 12:43:51 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/05/12 12:43:51 [notice] 1#1: worker process 23 exited with code 0
+2022/05/12 12:43:51 [notice] 1#1: worker process 26 exited with code 0
+2022/05/12 12:43:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/12 12:43:51 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/05/12 12:43:51 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/12 12:43:51 [notice] 1#1: worker process 24 exited with code 0
+2022/05/12 12:43:51 [notice] 1#1: exit
+2022/05/12 12:44:12 [notice] 1#1: using the "epoll" event method
+2022/05/12 12:44:12 [notice] 1#1: nginx/1.21.6
+2022/05/12 12:44:12 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 12:44:12 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 12:44:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 12:44:12 [notice] 1#1: start worker processes
+2022/05/12 12:44:12 [notice] 1#1: start worker process 23
+2022/05/12 12:44:12 [notice] 1#1: start worker process 24
+2022/05/12 12:44:12 [notice] 1#1: start worker process 25
+2022/05/12 12:44:12 [notice] 1#1: start worker process 26
+2022/05/12 12:44:20 [error] 24#24: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/api/v1/products/cart/items?task=False HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/api/v1/products/cart/items?task=False", host: "localhost"
+2022/05/12 12:44:21 [error] 24#24: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/api/v1/products/cart/items?task=False HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/api/v1/products/cart/items?task=False", host: "localhost"
+2022/05/12 12:45:21 [notice] 1#1: using the "epoll" event method
+2022/05/12 12:45:21 [notice] 1#1: nginx/1.21.6
+2022/05/12 12:45:21 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 12:45:21 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 12:45:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 12:45:21 [notice] 1#1: start worker processes
+2022/05/12 12:45:21 [notice] 1#1: start worker process 25
+2022/05/12 12:45:21 [notice] 1#1: start worker process 26
+2022/05/12 12:45:21 [notice] 1#1: start worker process 27
+2022/05/12 12:45:21 [notice] 1#1: start worker process 28
+2022/05/12 12:46:22 [notice] 1#1: using the "epoll" event method
+2022/05/12 12:46:22 [notice] 1#1: nginx/1.21.6
+2022/05/12 12:46:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 12:46:22 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 12:46:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 12:46:22 [notice] 1#1: start worker processes
+2022/05/12 12:46:22 [notice] 1#1: start worker process 23
+2022/05/12 12:46:22 [notice] 1#1: start worker process 24
+2022/05/12 12:46:22 [notice] 1#1: start worker process 25
+2022/05/12 12:46:22 [notice] 1#1: start worker process 26
+2022/05/12 12:47:26 [notice] 1#1: using the "epoll" event method
+2022/05/12 12:47:26 [notice] 1#1: nginx/1.21.6
+2022/05/12 12:47:26 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 12:47:26 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 12:47:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 12:47:26 [notice] 1#1: start worker processes
+2022/05/12 12:47:26 [notice] 1#1: start worker process 24
+2022/05/12 12:47:26 [notice] 1#1: start worker process 25
+2022/05/12 12:47:26 [notice] 1#1: start worker process 26
+2022/05/12 12:47:26 [notice] 1#1: start worker process 27
+2022/05/12 12:54:03 [notice] 1#1: using the "epoll" event method
+2022/05/12 12:54:03 [notice] 1#1: nginx/1.21.6
+2022/05/12 12:54:03 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 12:54:03 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 12:54:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 12:54:03 [notice] 1#1: start worker processes
+2022/05/12 12:54:03 [notice] 1#1: start worker process 22
+2022/05/12 12:54:03 [notice] 1#1: start worker process 23
+2022/05/12 12:54:03 [notice] 1#1: start worker process 24
+2022/05/12 12:54:03 [notice] 1#1: start worker process 25
+2022/05/12 12:56:31 [notice] 1#1: using the "epoll" event method
+2022/05/12 12:56:31 [notice] 1#1: nginx/1.21.6
+2022/05/12 12:56:31 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 12:56:31 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 12:56:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 12:56:31 [notice] 1#1: start worker processes
+2022/05/12 12:56:31 [notice] 1#1: start worker process 23
+2022/05/12 12:56:31 [notice] 1#1: start worker process 24
+2022/05/12 12:56:31 [notice] 1#1: start worker process 25
+2022/05/12 12:56:31 [notice] 1#1: start worker process 26
+2022/05/12 12:56:32 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 12:56:33 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 12:56:34 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 12:56:35 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 12:56:36 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 12:56:37 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 12:56:38 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 12:56:39 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 12:56:40 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 12:57:08 [notice] 1#1: using the "epoll" event method
+2022/05/12 12:57:08 [notice] 1#1: nginx/1.21.6
+2022/05/12 12:57:08 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 12:57:08 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 12:57:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 12:57:08 [notice] 1#1: start worker processes
+2022/05/12 12:57:08 [notice] 1#1: start worker process 22
+2022/05/12 12:57:08 [notice] 1#1: start worker process 23
+2022/05/12 12:57:08 [notice] 1#1: start worker process 24
+2022/05/12 12:57:08 [notice] 1#1: start worker process 25
+2022/05/12 12:57:08 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 12:57:09 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 12:57:10 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 12:57:11 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 12:57:12 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 12:57:13 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 12:57:14 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 12:57:15 [error] 24#24: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/api/v1/products/cart/items?task=True HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/api/v1/products/cart/items?task=True", host: "localhost"
+2022/05/12 12:57:15 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 12:57:16 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 12:57:16 [error] 24#24: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /backend/api/v1/products/cart/items?task=True HTTP/1.1", upstream: "http://172.18.0.6:8000/backend/api/v1/products/cart/items?task=True", host: "localhost"
+2022/05/12 13:05:28 [notice] 1#1: using the "epoll" event method
+2022/05/12 13:05:28 [notice] 1#1: nginx/1.21.6
+2022/05/12 13:05:28 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 13:05:28 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 13:05:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 13:05:28 [notice] 1#1: start worker processes
+2022/05/12 13:05:28 [notice] 1#1: start worker process 23
+2022/05/12 13:05:28 [notice] 1#1: start worker process 24
+2022/05/12 13:05:28 [notice] 1#1: start worker process 25
+2022/05/12 13:05:28 [notice] 1#1: start worker process 26
+2022/05/12 13:05:29 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 13:05:30 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 13:05:31 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 13:05:32 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 13:05:33 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 13:05:34 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 13:05:35 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 13:05:36 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: api.wellbe.club, request: "GET /pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats HTTP/1.1", upstream: "http://172.18.0.5:9090/pgadmin/dashboard/dashboard_stats/1/16384?chart_names=session_stats,tps_stats,ti_stats,to_stats,bio_stats", host: "localhost", referrer: "http://localhost/pgadmin/browser/"
+2022/05/12 17:11:43 [notice] 1#1: using the "epoll" event method
+2022/05/12 17:11:43 [notice] 1#1: nginx/1.21.6
+2022/05/12 17:11:43 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 17:11:43 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 17:11:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 17:11:43 [notice] 1#1: start worker processes
+2022/05/12 17:11:43 [notice] 1#1: start worker process 23
+2022/05/12 17:11:43 [notice] 1#1: start worker process 24
+2022/05/12 17:11:43 [notice] 1#1: start worker process 25
+2022/05/12 17:11:43 [notice] 1#1: start worker process 26
+2022/05/12 17:13:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/12 17:13:20 [notice] 26#26: gracefully shutting down
+2022/05/12 17:13:20 [notice] 26#26: exiting
+2022/05/12 17:13:20 [notice] 23#23: gracefully shutting down
+2022/05/12 17:13:20 [notice] 23#23: exiting
+2022/05/12 17:13:20 [notice] 25#25: gracefully shutting down
+2022/05/12 17:13:20 [notice] 25#25: exiting
+2022/05/12 17:13:20 [notice] 24#24: gracefully shutting down
+2022/05/12 17:13:20 [notice] 26#26: exit
+2022/05/12 17:13:20 [notice] 23#23: exit
+2022/05/12 17:13:20 [notice] 25#25: exit
+2022/05/12 17:13:20 [notice] 24#24: exiting
+2022/05/12 17:13:20 [notice] 24#24: exit
+2022/05/12 17:13:20 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/05/12 17:13:20 [notice] 1#1: worker process 26 exited with code 0
+2022/05/12 17:13:20 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/12 17:13:20 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/05/12 17:13:20 [notice] 1#1: worker process 23 exited with code 0
+2022/05/12 17:13:20 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/12 17:13:20 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/05/12 17:13:20 [notice] 1#1: worker process 25 exited with code 0
+2022/05/12 17:13:20 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/12 17:13:20 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/12 17:13:20 [notice] 1#1: worker process 24 exited with code 0
+2022/05/12 17:13:20 [notice] 1#1: exit
+2022/05/12 17:16:03 [notice] 1#1: using the "epoll" event method
+2022/05/12 17:16:03 [notice] 1#1: nginx/1.21.6
+2022/05/12 17:16:03 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/12 17:16:03 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/12 17:16:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/12 17:16:03 [notice] 1#1: start worker processes
+2022/05/12 17:16:03 [notice] 1#1: start worker process 22
+2022/05/12 17:16:03 [notice] 1#1: start worker process 23
+2022/05/12 17:16:03 [notice] 1#1: start worker process 24
+2022/05/12 17:16:03 [notice] 1#1: start worker process 25
+2022/05/12 18:29:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/12 18:29:39 [notice] 22#22: gracefully shutting down
+2022/05/12 18:29:39 [notice] 23#23: gracefully shutting down
+2022/05/12 18:29:39 [notice] 23#23: exiting
+2022/05/12 18:29:39 [notice] 24#24: gracefully shutting down
+2022/05/12 18:29:39 [notice] 24#24: exiting
+2022/05/12 18:29:39 [notice] 25#25: gracefully shutting down
+2022/05/12 18:29:39 [notice] 22#22: exiting
+2022/05/12 18:29:39 [notice] 23#23: exit
+2022/05/12 18:29:39 [notice] 24#24: exit
+2022/05/12 18:29:39 [notice] 25#25: exiting
+2022/05/12 18:29:39 [notice] 22#22: exit
+2022/05/12 18:29:39 [notice] 25#25: exit
+2022/05/12 18:29:39 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/05/12 18:29:39 [notice] 1#1: worker process 23 exited with code 0
+2022/05/12 18:29:39 [notice] 1#1: worker process 24 exited with code 0
+2022/05/12 18:29:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/12 18:29:39 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/05/12 18:29:39 [notice] 1#1: worker process 22 exited with code 0
+2022/05/12 18:29:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/12 18:29:39 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/05/12 18:29:39 [notice] 1#1: worker process 25 exited with code 0
+2022/05/12 18:29:39 [notice] 1#1: exit
+2022/05/17 10:30:24 [notice] 1#1: using the "epoll" event method
+2022/05/17 10:30:24 [notice] 1#1: nginx/1.21.6
+2022/05/17 10:30:24 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/17 10:30:24 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/17 10:30:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/17 10:30:24 [notice] 1#1: start worker processes
+2022/05/17 10:30:24 [notice] 1#1: start worker process 23
+2022/05/17 10:30:24 [notice] 1#1: start worker process 24
+2022/05/17 10:30:24 [notice] 1#1: start worker process 25
+2022/05/17 10:30:24 [notice] 1#1: start worker process 26
+2022/05/17 10:36:02 [notice] 1#1: using the "epoll" event method
+2022/05/17 10:36:02 [notice] 1#1: nginx/1.21.6
+2022/05/17 10:36:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/17 10:36:02 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/17 10:36:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/17 10:36:02 [notice] 1#1: start worker processes
+2022/05/17 10:36:02 [notice] 1#1: start worker process 23
+2022/05/17 10:36:02 [notice] 1#1: start worker process 24
+2022/05/17 10:36:02 [notice] 1#1: start worker process 25
+2022/05/17 10:36:02 [notice] 1#1: start worker process 26
+2022/05/17 10:41:14 [notice] 1#1: using the "epoll" event method
+2022/05/17 10:41:14 [notice] 1#1: nginx/1.21.6
+2022/05/17 10:41:14 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/17 10:41:14 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/17 10:41:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/17 10:41:14 [notice] 1#1: start worker processes
+2022/05/17 10:41:14 [notice] 1#1: start worker process 24
+2022/05/17 10:41:14 [notice] 1#1: start worker process 25
+2022/05/17 10:41:14 [notice] 1#1: start worker process 26
+2022/05/17 10:41:14 [notice] 1#1: start worker process 27
+2022/05/17 10:42:08 [notice] 1#1: using the "epoll" event method
+2022/05/17 10:42:08 [notice] 1#1: nginx/1.21.6
+2022/05/17 10:42:08 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/17 10:42:08 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/17 10:42:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/17 10:42:08 [notice] 1#1: start worker processes
+2022/05/17 10:42:08 [notice] 1#1: start worker process 23
+2022/05/17 10:42:08 [notice] 1#1: start worker process 24
+2022/05/17 10:42:08 [notice] 1#1: start worker process 25
+2022/05/17 10:42:08 [notice] 1#1: start worker process 26
+2022/05/17 10:44:00 [notice] 1#1: using the "epoll" event method
+2022/05/17 10:44:00 [notice] 1#1: nginx/1.21.6
+2022/05/17 10:44:00 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/17 10:44:00 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/05/17 10:44:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/17 10:44:00 [notice] 1#1: start worker processes
+2022/05/17 10:44:00 [notice] 1#1: start worker process 23
+2022/05/17 10:44:00 [notice] 1#1: start worker process 24
+2022/05/17 10:44:00 [notice] 1#1: start worker process 25
+2022/05/17 10:44:00 [notice] 1#1: start worker process 26

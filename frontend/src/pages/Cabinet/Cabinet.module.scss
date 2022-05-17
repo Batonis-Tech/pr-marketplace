@@ -1,0 +1,110 @@
+@import "../../assets/variables";
+
+.container{
+  @include container;
+}
+
+.title{
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  color: #2A3342;
+  margin: 24px 0;
+}
+
+.cols{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar{
+  width: 272px;
+}
+
+.content{
+  width: calc(100% - 272px - 64px);
+}
+
+.nav{
+  width: 100%;
+  position: sticky;
+  top: 80px;
+}
+
+.link{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 56px;
+  padding: 4px 0 4px 16px;
+  &:hover{
+    background: rgba(255, 236, 179, 0.27);
+  }
+  & div{
+    display: flex;
+    flex-direction: column;
+  }
+  & span{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2A3342;
+    margin-left: 12px;
+    &.status{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #4D5F7A;
+    }
+  }
+  & svg{
+    min-width: 20px;
+  }
+  & path{
+    fill: #2A3342;
+  }
+}
+
+
+
+.linkActive{
+  background-color: #FFECB3 !important;
+  & > span{
+    color: #FF6F00;
+  }
+  & path{
+    fill: #FF6F00;
+  }
+}
+
+.linksLoading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 56px;
+}
+
+.btnAdd{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 56px;
+  padding: 0 16px;
+  cursor: pointer;
+  &:hover{
+    background: rgba(255, 236, 179, 0.27);
+  }
+  & > span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFB300;
+    margin-left: 12px;
+  }
+  & path{
+    fill: #FFB300;
+  }
+}

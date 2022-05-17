@@ -1,0 +1,11 @@
+{% extends "admin/index.html" %}
+
+{% block content %}
+    <style>
+        #content-main {
+            margin-top: 16px;
+        }
+    </style>
+<a href="accounting" class="accounting">Бухгалтерия</a>
+{{ block.super }}
+{% endblock %}

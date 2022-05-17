@@ -1,0 +1,74 @@
+.provider{
+
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkboxInner{
+  display: flex;
+  align-items: center;
+}
+
+.checkboxMain{
+  & > div:nth-child(2){
+    width: 20px;
+    height: 20px;
+  }
+  & > div:nth-child(2)>span{
+    font-size: 12px !important;
+  }
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+}
+
+.labelMain{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2A3342;
+}
+
+.priceProdTotal{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2A3342;
+}
+
+.productName{
+  margin-left: 36px;
+}
+
+.optionName{
+  margin-left: 12px;
+}
+
+.provider{
+  margin-top: 24px;
+  &:first-child{
+    margin-top: 0;
+  }
+}
+
+.priceTotalTitle{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2A3342;
+}
+
+.priceTotal{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2A3342;
+}
+
+.btnBuy{
+  height: 46px;
+}

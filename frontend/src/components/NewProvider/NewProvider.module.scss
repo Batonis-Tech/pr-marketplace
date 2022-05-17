@@ -1,0 +1,36 @@
+.cols{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sidebar{
+  display: flex;
+  flex-flow: column nowrap;
+  width: 200px;
+}
+
+.data{
+  width: calc(100% - 200px - 32px);
+}
+
+.title{
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  color: #2A3342;
+}
+
+.btnEdit{
+  align-self: flex-end;
+  & > span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFB300;
+    margin-left: 10px;
+  }
+  & path{
+    fill: #FFB300;
+  }
+}

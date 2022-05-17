@@ -1,0 +1,181 @@
+@import "../../assets/variables";
+
+.container{
+  @include container;
+  padding-bottom: 32px;
+}
+
+.colInner{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.col1{
+  width: calc(68% - 32px);
+}
+
+.col2{
+  width: 32%;
+}
+
+.sidebarBtn{
+  width: 100% !important;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.card{
+  padding: 6px 12px;
+  border: 1px solid #D5DAE1;
+  border-radius: 16px;
+  @include flexCenterCenter;
+  margin-right: 12px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2A3342;
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
+.skeletonBar{
+  margin: 24px 0;
+}
+
+.bar{
+  padding: 24px 0;
+  & span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4D5F7A;
+  }
+  & a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4D5F7A;
+  }
+  & .hr {
+    margin: 0 12px
+  }
+  & .barActive{
+    color: #2A3342;
+  }
+}
+
+.img{
+  width: 226px;
+  height: 80px;
+  margin-bottom: 16px;
+  object-fit: contain;
+}
+
+.nameInner{
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.name{
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  color: #2A3342;
+  margin-right: 12px;
+}
+
+.location{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4D5F7A;
+  margin-bottom: 16px;
+}
+
+.desc{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2A3342;
+  margin-bottom: 16px;
+}
+
+.propertyInner{
+  margin-bottom: 16px;
+}
+
+.propertyTitle{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2A3342;
+  margin-bottom: 8px;
+}
+
+.propertyText{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2A3342;
+}
+
+.valuesInner{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 32px;
+  grid-row-gap: 12px;
+}
+
+.valueRow{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.valueTitle{
+  width: calc(50% - 16px);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4D5F7A;
+}
+
+.valueText{
+  width: calc(50% - 16px);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2A3342;
+}
+
+.sidebar{
+  position: sticky;
+  top: 120px;
+}
+
+.radioButtonInner{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-bottom: 16px;
+  &:last-child{
+    margin-bottom: 0;
+  }
+  & label{
+    margin-left: 8px;
+  }
+}

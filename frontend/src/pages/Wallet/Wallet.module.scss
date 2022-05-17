@@ -1,0 +1,241 @@
+@import "../../assets/variables";
+
+.container{
+  @include container;
+}
+
+.title{
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  color: #2A3342;
+  padding: 24px 0;
+}
+
+.col2{
+  width: calc(100% - 304px);
+}
+
+.col1{
+  width: 272px;
+}
+
+.colInner{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.sidebar{
+  position: sticky;
+  top: 120px;
+  padding: 1px;
+}
+
+.sidebarTitle{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2A3342;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  &:last-child{
+    margin-bottom: 0;
+  }
+  & > span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2A3342;
+  }
+}
+
+.btn{
+  width: 100%;
+  height: 46px;
+  @include flexCenterCenter;
+  & > span{
+    margin-right: 8px;
+  }
+  & path{
+    fill: #FFF8E1;
+  }
+}
+
+.subtitle{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2A3342;
+  margin-bottom: 36px;
+}
+
+.operations{
+
+}
+
+.operation{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #D5DAE1;
+}
+
+.operationTitleInner{
+
+}
+
+.operationTitle{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2A3342;
+  margin-bottom: 2px;
+}
+
+.operationDate{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4D5F7A;
+}
+
+.operationPrice{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4D5F7A;
+  &Plus{
+    color: #2AD168
+  }
+}
+
+.dropdownMenuInner{
+  position: relative;
+}
+
+.dropdownMenu{
+  position: absolute;
+  top: 48px;
+  min-width: 230px;
+  right: 0;
+  z-index: 10;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(42, 51, 66, 0.06), 0px 1px 2px rgba(42, 51, 66, 0.03);
+  border-radius: 6px;
+}
+
+.dropdownMenuItem{
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  cursor: pointer;
+  &:hover{
+    background: rgba(255, 236, 179, 0.27);
+  }
+  &Active{
+    background: #FFECB3;
+  }
+  & > div{
+    margin-left: 12px;
+    white-space: nowrap;
+  }
+}
+
+.filters{
+  display: flex;
+  align-items: end;
+  margin-bottom: 24px;
+}
+
+.dropdownInner{
+}
+
+.dropdownLabel{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333F51;
+  margin-bottom: 6px;
+}
+
+.dropdown{
+  height: 46px;
+}
+
+.dropdownTypesProd{
+  width: 272px;
+}
+
+.btnExport{
+  height: 46px;
+  margin-left: 32px;
+}
+
+.statistics{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.statisticsItem{
+  width: 272px;
+  margin-right: 32px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2A3342;
+  &:last-child{
+    margin-right: 0;
+  }
+  & > span{
+    font-weight: 500;
+    margin-left: 16px;
+  }
+}
+
+.editBtn{
+  height: 48px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & > span {
+    margin-left: 8px;
+  }
+  & path {
+    fill: #FFB300;
+  }
+}
+
+.recTitle{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #2A3342;
+  margin-bottom: 24px;
+}
+
+.recItem{
+  margin-bottom: 16px;
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+
+.recSubTitle{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4D5F7A;
+}
+
+.recValue{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2A3342;
+}

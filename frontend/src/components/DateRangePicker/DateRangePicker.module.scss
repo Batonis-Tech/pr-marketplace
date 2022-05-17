@@ -1,0 +1,25 @@
+.input{
+  height: 46px;
+}
+
+.container{
+  width: 272px;
+}
+
+.label{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333F51;
+  margin-bottom: 6px;
+}
+
+.inner{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input{
+  width: calc(50% - 8px);
+}

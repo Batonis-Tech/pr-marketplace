@@ -1,0 +1,31 @@
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 32px;
+  grid-row-gap: 24px;
+}
+
+.btns{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn{
+  height: 46px;
+}
+
+.balance{
+  margin-top: 24px;
+  & > span {
+    font-weight: 500;
+  }
+}
+
+.comis{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #556987;
+  margin-top: 6px;
+}

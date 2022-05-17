@@ -1,0 +1,99 @@
+.content{
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.charmInner{
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 24px;
+  & svg{
+    min-width: 24px;
+    min-height: 24px;
+  }
+}
+
+.charmText{
+  margin-left: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333F51;
+}
+
+.info{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-column-gap: 32px;
+  grid-row-gap: 12px;
+  margin-bottom: 40px;
+}
+
+.infoName{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4D5F7A;
+}
+
+.infoValue{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2A3342;
+}
+
+.qrCode{
+  width: 168px;
+  background-color: #FFB300;
+  align-self: center;
+  margin-bottom: 56px;
+}
+
+.btn{
+  height: 46px;
+  & span{
+    margin-left: 6px;
+  }
+  & path{
+
+  }
+}
+
+.btnCancel{
+  display: none;
+}
+
+.btnUpload{
+  display: none;
+}
+
+.sendBtn{
+  width: 150px !important;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: end;
+  & span{
+    margin-left: 8px;
+  }
+}
+
+.btns{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.error{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #EF5944;
+  margin-top: 2px;
+}
+
+.closeBtn{
+  height: 46px;
+}

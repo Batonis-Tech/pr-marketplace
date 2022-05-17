@@ -1,0 +1,42 @@
+@import "../../assets/variables";
+
+.searchBlock{
+  @include container;
+  padding-top: 24px;
+  margin-bottom: 32px;
+}
+
+.container{
+  @include container;
+}
+
+.title{
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  color: #2A3342;
+  margin-bottom: 32px;
+}
+
+.inputSearch{
+  width: 463px;
+  height: 46px;
+  margin-right: 16px;
+}
+
+.btnFound{
+  width: 97px;
+  height: 46px;
+  margin-right: 16px;
+}
+
+.btnShowFilters{
+  width: 195px;
+  height: 46px;
+}
+
+.btnAddFilters{
+  height: 46px;
+  margin-right: 16px;
+  border: 1px solid #FFB300 !important;
+}

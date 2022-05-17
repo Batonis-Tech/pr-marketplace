@@ -1,0 +1,82 @@
+.subTitle{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2A3342;
+  margin: 32px 0 24px 0;
+}
+
+.pub{
+  margin-top: 24px;
+  &:first-child{
+    margin-top: 0;
+  };
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 32px;
+  grid-row-gap: 24px;
+  padding-right: 32px;
+  position: relative;
+}
+
+.btnPublicationDel{
+  position: absolute;
+  top: 41px;
+  right: 0;
+  cursor: pointer;
+}
+
+.optionsInner{
+  background: #F7F8F9;
+  border-radius: 6px;
+  padding: 24px;
+  margin-top: 24px;
+}
+
+.optionsTitle{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #2A3342;
+  margin-bottom: 16px;
+}
+
+.btnOptionsAdd{
+  height: 36px;
+  & > span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFB300;
+    margin-left: 6px;
+  }
+  & svg {
+    width: 20px;
+    height: 20px;
+  }
+  & path {
+    fill: #FFB300;
+  }
+}
+
+.btnPublicationAdd{
+  height: 46px;
+  margin-top: 24px;
+  & > span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFB300;
+    margin-left: 6px;
+  }
+  & svg {
+    width: 24px;
+    height: 24px;
+  }
+  & path {
+    fill: #FFB300;
+  }
+}
