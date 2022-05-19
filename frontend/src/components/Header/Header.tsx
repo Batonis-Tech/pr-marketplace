@@ -1,7 +1,7 @@
 import React, {FC, useEffect, useRef, useState} from 'react';
 import classes from "./Header.module.scss"
 import { Badge } from 'primereact/badge';
-import {ReactComponent as Logo} from "../../assets/svg/Logo.svg";
+import {ReactComponent as Logo} from "../../assets/svg/LogoNew.svg";
 import {ReactComponent as Basket} from "../../assets/svg/Basket.svg";
 import {ReactComponent as Account} from "../../assets/svg/Account.svg";
 import {ReactComponent as ArrowDown} from "../../assets/svg/DownArrow.svg";

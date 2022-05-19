@@ -90,13 +90,15 @@ const ModalRequisites: FC<ModalRequisitesProps> = ({visible, onHide, toastRef}) 
                     <div className={classes.infoName}>Наименование</div>
                     <div className={classes.infoValue}>АО «БизнесАктив»</div>
                     <div className={classes.infoName}>ИНН</div>
-                    <div className={classes.infoValue}>7728185590</div>
+                    <div className={classes.infoValue}>7728184325</div>
                     <div className={classes.infoName}>Наименование банка</div>
                     <div className={classes.infoValue}>АО «АЛЬФА-БАНК»</div>
                     <div className={classes.infoName}>БИК банка</div>
                     <div className={classes.infoValue}>044525593</div>
+                    <div className={classes.infoName}>Корр. счет</div>
+                    <div className={classes.infoValue}>30101810200000000663</div>
                     <div className={classes.infoName}>Расчетный счет</div>
-                    <div className={classes.infoValue}>40702810502860003559</div>
+                    <div className={classes.infoValue}>40702810524660003559</div>
                 </div>
                 <img src={QR} className={classes.qrCode} alt={"QR code"}/>
                 <div style={{width: 320, marginBottom: 50}}>
