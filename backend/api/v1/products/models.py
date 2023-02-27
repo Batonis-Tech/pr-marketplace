@@ -178,6 +178,7 @@ class Order(models.Model):
         if self.status in [self.Statuses.PAID, self.Statuses.AWAITING_PAYMENT, self.Statuses.IN_PROGRESS]:
             if self.blocking:
                 self.blocking.delete()
+                self.blocking = None
                 self.save()
             self.set_status(self.Statuses.CANCELED)
             return True

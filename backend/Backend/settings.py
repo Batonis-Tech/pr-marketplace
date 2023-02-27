@@ -150,17 +150,21 @@ AUTHENTICATION_BACKENDS = (
     # 'social_core.backends.apple.AppleIdAuth',
 )
 
-STREAM_API_KEY = os.environ.get("STREAM_API_KEY")
-STREAM_API_SECRET = os.environ.get("STREAM_API_SECRET")
+STREAM_API_KEY = 'tk3er9ueepmy'
+STREAM_API_SECRET = 'ctq3kxh8nyfcjes39kjphp2nrutkq9p3kwe7yehq55wkt5pfqjrc6wya4d3dgkxe'
 
-CAPTCHA_SECRET_KEY = os.environ.get("CAPTCHA_SECRET_KEY")
+# CAPTCHA_KEY = '6LfC2U0fAAAAAJbspH-TnrxI_CW8oxQqcAEXFdAL'
+CAPTCHA_SECRET_KEY = '6LfC2U0fAAAAABJljPBOz8lEX2QFVdIC6IideFev'
 
-SOCIAL_AUTH_APPLE_ID_CLIENT = 'xxxxxxx'
-SOCIAL_AUTH_APPLE_ID_TEAM = 'xxxxx'
-SOCIAL_AUTH_APPLE_ID_KEY = 'xxxx'
+SOCIAL_AUTH_APPLE_ID_CLIENT = 'com.beautytwins.solutions'
+SOCIAL_AUTH_APPLE_ID_TEAM = 'TPV6754L84'
+SOCIAL_AUTH_APPLE_ID_KEY = '4VY9ZY3623'
 SOCIAL_AUTH_APPLE_ID_SECRET = """
 -----BEGIN PRIVATE KEY-----
-xxxxxxxxx
+MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgEFeuEWbuWyHeRhqN
+GqZFo6ICJ07cEhguf7MnBeWF6sGgCgYIKoZIzj0DAQehRANCAAToYLHWDTdlpE5T
+TPxyM5d1QUVX3kORXv6HxmA2/umpxa2bm81CQ6Y9ZrEic5KDklUVFzQnVbids6T+
+zAs0mqtA
 -----END PRIVATE KEY-----"""
 SOCIAL_AUTH_APPLE_ID_SCOPE = ['email', 'name']
 SOCIAL_AUTH_APPLE_ID_EMAIL_AS_USERNAME = False   # If you want to use email as username
@@ -365,9 +369,8 @@ LOGGING = {
 CONSTANCE_IGNORE_ADMIN_VERSION_CHECK = True
 
 CONSTANCE_CONFIG = {
-    'COMISSION_IN': (Decimal("0.1"), 'Комиссия на ввод средств \n В долях от единицы \n Пример: комиссия 10% = 0.1', Decimal),
-    'COMISSION_OUT': (Decimal("0.1"), 'Комиссия на вывод средств \n В долях от единицы \n Пример: комиссия 10% = 0.1', Decimal),
-    'UNISENDER_API_KEY': ("xxxxxxxxxxxx", 'Ключ апи'),
+    'COMISSION': (Decimal("0.1"), 'Комиссия на вывод средств \n В долях от единицы \n Пример: комиссия 10% = 0.1', Decimal),
+    'UNISENDER_API_KEY': ("6k6ixe8fu489bfi1hkfi69cm7wm9hgfpjq1oohyy", 'Ключ апи'),
     'UNISENDER_LIST_ID': (1, 'ID списка, от которого будет предложено отписаться \n (подробнее в документации Unisender)'),
     'UNISENDER_EMAIL': ("info@batonis.ru", 'Почта, с которой будут отправляться емайлы'),
     'UNISENDER_NAME': ("Backend", 'Имя отправителя письма'),
