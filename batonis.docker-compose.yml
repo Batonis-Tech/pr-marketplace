@@ -98,3 +98,5 @@ services:
 networks:
   djangonetwork:
     driver: bridge
+  pr-marketplace_djangonetwork:
+    external: true
